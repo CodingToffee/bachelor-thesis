@@ -11,45 +11,49 @@ The style file: apalike.bst
 A level-1 auxiliary file: ./doc/202abkuerzungsverzeichnis.aux
 Database file #1: ./bib/quellen.bib
 Warning--I didn't find a database entry for "IIRA"
-You've used 2 entries,
+Warning--I didn't find a database entry for "Segmentation"
+Warning--I didn't find a database entry for "ImageAttack"
+Warning--empty year in ashtonThatInternetThings
+Warning--empty journal in ashtonThatInternetThings
+You've used 1 entry,
             1935 wiz_defined-function locations,
-            499 strings with 4385 characters,
-and the built_in function-call counts, 525 in all, are:
-= -- 56
-> -- 14
-< -- 2
-+ -- 4
-- -- 4
-* -- 30
-:= -- 109
-add.period$ -- 8
-call.type$ -- 2
-change.case$ -- 12
-chr.to.int$ -- 2
-cite$ -- 2
-duplicate$ -- 20
-empty$ -- 31
-format.name$ -- 6
-if$ -- 95
+            488 strings with 3993 characters,
+and the built_in function-call counts, 279 in all, are:
+= -- 24
+> -- 7
+< -- 1
++ -- 2
+- -- 2
+* -- 16
+:= -- 56
+add.period$ -- 2
+call.type$ -- 1
+change.case$ -- 6
+chr.to.int$ -- 1
+cite$ -- 3
+duplicate$ -- 13
+empty$ -- 21
+format.name$ -- 3
+if$ -- 50
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 15
-num.names$ -- 6
-pop$ -- 4
+missing$ -- 1
+newline$ -- 7
+num.names$ -- 3
+pop$ -- 9
 preamble$ -- 1
-purify$ -- 12
+purify$ -- 6
 quote$ -- 0
-skip$ -- 19
+skip$ -- 10
 stack$ -- 0
-substring$ -- 24
+substring$ -- 12
 swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 12
-warning$ -- 0
-while$ -- 4
+type$ -- 6
+warning$ -- 2
+while$ -- 2
 width$ -- 0
-write$ -- 30
-(There was 1 warning)
+write$ -- 11
+(There were 5 warnings)
