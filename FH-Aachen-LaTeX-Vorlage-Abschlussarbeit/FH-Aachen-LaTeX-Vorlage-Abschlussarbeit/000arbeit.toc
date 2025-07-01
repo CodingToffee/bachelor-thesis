@@ -1,0 +1,23 @@
+\babel@toc {USenglish}{}\relax 
+\linespread {1}
+\contentsline {chapter}{\numberline {1}\textbf {Introduction}}{4}{}%
+\contentsline {section}{\numberline {1.1}Motivation und Aufgabenstellung}{4}{}%
+\contentsline {section}{\numberline {1.2}Vorgehensweise}{5}{}%
+\vspace {0.8cm}
+\contentsline {chapter}{\numberline {2}\textbf {Foundations}}{6}{}%
+\contentsline {section}{\numberline {2.1}State of the Art}{6}{}%
+\contentsline {subsection}{\numberline {2.1.1}Industrial IoT Architectures and Patterns}{6}{}%
+\vspace {0.8cm}
+\contentsline {chapter}{\numberline {3}\textbf {Kapitel 3}}{7}{}%
+\vspace {0.8cm}
+\contentsline {chapter}{\numberline {4}\textbf {Zusammenfassung und Ausblick}}{8}{}%
+\vspace {0.8cm}
+\contentsline {chapter}{Quellenverzeichnis}{9}{}%
+\contentsline {chapter}{Abkürzungsverzeichnis}{10}{}%
+\contentsline {chapter}{Abbildungsverzeichnis}{11}{}%
+\contentsline {chapter}{Tabellenverzeichnis}{12}{}%
+\vspace {0.8cm}
+\contentsline {chapter}{Anhang}{12}{}%
+\contentsline {chapter}{\numberline {A}Quellcode}{13}{}%
+\contentsline {chapter}{\numberline {B}Rohdatenvisualisierungen}{14}{}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
