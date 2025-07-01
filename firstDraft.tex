@@ -1,4 +1,4 @@
-\documentclass[11pt]{article}
+\documentclass[11pt]{report}
     \title{\textbf{Design and Implementation of a Performance Measurement System for an Industrial Sewing Machine}}
     \author{Nicolas Harrje}
     \date{}
@@ -15,6 +15,9 @@ linkcolor = black,
 plainpages = false,
 hypertexnames = false,
 citecolor = black] {hyperref}
+\usepackage{cite}
+\usepackage{graphicx}
+
 \begin{document}
 
 \maketitle
@@ -23,16 +26,15 @@ citecolor = black] {hyperref}
 \tableofcontents
 \newpage
 
-\section{Introduction} 
-\section{Theoretical foundations}
-\subsection{Definitions}
-\subsubsection{IoT and IIoT}
-\subsubsection{IoT-Platforms}
-\subsection{Performance measurement in industrial environments}
-\section{Methodology}
-\section{Conclusion} 
-\section{Discussion}
+\chapter{Introduction}
+\chapter{Theoretical Foundations}
+\input{./chapters/theoretical_foundations}
+\chapter{Methodology}
+\chapter{Conclusion}
+\chapter{Discussion}
 
+\bibliographystyle{IEEEtran}
+\bibliography{sources}
 
 \end{document}
 
