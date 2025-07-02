@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.1)  2 JUL 2025 14:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.1)  2 JUL 2025 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -671,7 +671,7 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__pdf_internal_box=\box75
 )
 (./000arbeit.aux (./doc/001titelblatt.aux) (./doc/002erklaerung.aux)
-(./doc/101kap1.aux) (./doc/102kap2.aux) (./doc/103kap3.aux)
+(./doc/101kap1.aux) (./doc/102Foundations.aux) (./doc/103kap3.aux)
 (./doc/111Schluss.aux) (./doc/202abkuerzungsverzeichnis.aux))
 \openout1 = `000arbeit.aux'.
 
@@ -864,9 +864,9 @@ mhal-tung. Sie darf vorher weder vollst[]andig
 
 
 ]
-\openout2 = `./doc/101kap1.aux'.
+\openout2 = `./doc/101Introduction.aux'.
 
- (./doc/101kap1.tex
+ (./doc/101Introduction.tex
 chapter 1.
 
 Class scrreprt Warning: \float@addtolists detected!
@@ -890,9 +890,9 @@ Class scrreprt Warning: \float@addtolists detected!
 
 
 ]) [5]
-\openout2 = `./doc/102kap2.aux'.
+\openout2 = `./doc/102Foundations.aux'.
 
- (./doc/102kap2.tex
+ (./doc/102Foundations.tex
 chapter 2.
 
 LaTeX Warning: Citation `IIRA' on page 6 undefined on input line 12.
@@ -922,11 +922,15 @@ File: pic/three-tier-architecture.jpg Graphic file (type jpg)
 Package pdftex.def Info: pic/three-tier-architecture.jpg  used on input line 28
 .
 (pdftex.def)             Requested size: 426.79135pt x 228.25333pt.
- [7 <./pic/IIRA-model-component-pattern.png>]) [8 <./pic/three-tier-architectur
-e.jpg>]
-\openout2 = `./doc/103kap3.aux'.
+ [7 <./pic/IIRA-model-component-pattern.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
 
- (./doc/103kap3.tex
+ []
+
+) [8 <./pic/three-tier-architecture.jpg>]
+\openout2 = `./doc/103RequirementsAnalysis.aux'.
+
+ (./doc/103RequirementsAnalysis.tex
 chapter 3.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd)) [9
 
@@ -1006,8 +1010,9 @@ chapter B.
 [16
 
 ] (./000arbeit.aux (./doc/001titelblatt.aux) (./doc/002erklaerung.aux)
-(./doc/101kap1.aux) (./doc/102kap2.aux) (./doc/103kap3.aux)
-(./doc/111Schluss.aux) (./doc/202abkuerzungsverzeichnis.aux))
+(./doc/101Introduction.aux) (./doc/102Foundations.aux)
+(./doc/103RequirementsAnalysis.aux) (./doc/111Schluss.aux)
+(./doc/202abkuerzungsverzeichnis.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1018,10 +1023,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 16311 strings out of 474222
- 322823 string characters out of 5748734
- 1939975 words of memory out of 5000000
- 38246 multiletter control sequences out of 15000+600000
+ 16319 strings out of 474222
+ 323692 string characters out of 5748734
+ 1938975 words of memory out of 5000000
+ 38252 multiletter control sequences out of 15000+600000
  576262 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,19n,107p,10954b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1036,7 +1041,7 @@ lic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvet
 ic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 000arbeit.pdf (16 pages, 224452 bytes).
+Output written on 000arbeit.pdf (16 pages, 224760 bytes).
 PDF statistics:
  122 PDF objects out of 1000 (max. 8388607)
  75 compressed objects within 1 object stream
