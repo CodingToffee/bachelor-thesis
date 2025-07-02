@@ -7,10 +7,8 @@
 \contentsline {chapter}{\numberline {2}\textbf {Foundations}}{6}{}%
 \contentsline {section}{\numberline {2.1}Definitions}{6}{}%
 \contentsline {subsection}{\numberline {2.1.1}IoT and IIoT}{6}{}%
-\contentsline {subsection}{\numberline {2.1.2}IoT-Platforms}{6}{}%
 \contentsline {section}{\numberline {2.2}State of the Art}{6}{}%
 \contentsline {subsection}{\numberline {2.2.1}Industrial IoT Architectures and Patterns}{6}{}%
-\vspace {0.8cm}
 \contentsline {paragraph}{\nonumberline Architecture Patterns}{6}{}%
 \contentsline {subparagraph}{\nonumberline IoT Component Capability Model Pattern}{6}{}%
 \contentsline {subparagraph}{\nonumberline Three-Tier Architecture Pattern}{7}{}%
@@ -18,6 +16,7 @@
 \contentsline {subsection}{\numberline {2.2.3}IoT-Plattforms}{8}{}%
 \contentsline {subsection}{\numberline {2.2.4}Databases}{8}{}%
 \contentsline {subsection}{\numberline {2.2.5}Dashboarding}{8}{}%
+\vspace {0.8cm}
 \contentsline {chapter}{\numberline {3}\textbf {Kapitel 3}}{9}{}%
 \vspace {0.8cm}
 \contentsline {chapter}{\numberline {4}\textbf {Zusammenfassung und Ausblick}}{10}{}%

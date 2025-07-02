@@ -1,7 +1,17 @@
 \begin{thebibliography}{}
 
+\bibitem[Wha, ]{WhatIoTInternet}
+What is {{IoT}} ({{Internet}} of {{Things}})? {\textbar} {{Definition}} from
+  {{TechTarget}}.
+\newblock
+  https://www.techtarget.com/iotagenda/definition/Internet-of-Things-IoT.
+
 \bibitem[Ashton, ]{ashtonThatInternetThings}
 Ashton, K.
 \newblock That '{{Internet}} of {{Things}}' {{Thing}}.
+
+\bibitem[Rose et~al., ]{roseInternetThingsOverview}
+Rose, K., Eldridge, S., and Chapin, L.
+\newblock The {{Internet}} of {{Things}}: {{An Overview}}.
 
 \end{thebibliography}

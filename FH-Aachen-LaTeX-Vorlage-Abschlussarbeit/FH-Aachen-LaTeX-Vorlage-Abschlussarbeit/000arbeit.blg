@@ -13,47 +13,51 @@ Database file #1: ./bib/quellen.bib
 Warning--I didn't find a database entry for "IIRA"
 Warning--I didn't find a database entry for "Segmentation"
 Warning--I didn't find a database entry for "ImageAttack"
+Warning--to sort, need author or key in WhatIoTInternet
+Warning--empty year in WhatIoTInternet
 Warning--empty year in ashtonThatInternetThings
 Warning--empty journal in ashtonThatInternetThings
-You've used 1 entry,
+Warning--empty year in roseInternetThingsOverview
+Warning--empty journal in roseInternetThingsOverview
+You've used 3 entries,
             1935 wiz_defined-function locations,
-            488 strings with 3993 characters,
-and the built_in function-call counts, 279 in all, are:
-= -- 24
-> -- 7
+            497 strings with 4342 characters,
+and the built_in function-call counts, 808 in all, are:
+= -- 75
+> -- 25
 < -- 1
-+ -- 2
-- -- 2
-* -- 16
-:= -- 56
-add.period$ -- 2
-call.type$ -- 1
-change.case$ -- 6
-chr.to.int$ -- 1
-cite$ -- 3
-duplicate$ -- 13
-empty$ -- 21
-format.name$ -- 3
-if$ -- 50
++ -- 10
+- -- 8
+* -- 55
+:= -- 147
+add.period$ -- 6
+call.type$ -- 3
+change.case$ -- 19
+chr.to.int$ -- 3
+cite$ -- 10
+duplicate$ -- 36
+empty$ -- 59
+format.name$ -- 10
+if$ -- 150
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 1
-newline$ -- 7
-num.names$ -- 3
-pop$ -- 9
+missing$ -- 2
+newline$ -- 15
+num.names$ -- 6
+pop$ -- 27
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 19
 quote$ -- 0
-skip$ -- 10
+skip$ -- 24
 stack$ -- 0
-substring$ -- 12
+substring$ -- 39
 swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
-warning$ -- 2
-while$ -- 2
+type$ -- 18
+warning$ -- 6
+while$ -- 4
 width$ -- 0
-write$ -- 11
-(There were 5 warnings)
+write$ -- 29
+(There were 9 warnings)
