@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.1)  2 JUL 2025 13:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.7.1)  2 JUL 2025 14:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1018,11 +1018,11 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 16313 strings out of 474222
- 322827 string characters out of 5748734
+ 16311 strings out of 474222
+ 322823 string characters out of 5748734
  1939975 words of memory out of 5000000
- 38250 multiletter control sequences out of 15000+600000
- 574578 words of font info for 70 fonts, out of 8000000 for 9000
+ 38246 multiletter control sequences out of 15000+600000
+ 576262 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,19n,107p,10954b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
@@ -1034,11 +1034,12 @@ nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvet
 ic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on 000arbeit.pdf (16 pages, 217557 bytes).
+/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on 000arbeit.pdf (16 pages, 224452 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 122 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

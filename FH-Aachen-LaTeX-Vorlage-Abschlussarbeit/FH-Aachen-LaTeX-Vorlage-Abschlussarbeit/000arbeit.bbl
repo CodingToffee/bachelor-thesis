@@ -10,6 +10,13 @@ What is {{IoT}} ({{Internet}} of {{Things}})? {\textbar} {{Definition}} from
 Ashton, K.
 \newblock That '{{Internet}} of {{Things}}' {{Thing}}.
 
+\bibitem[Kang et~al., 2016]{kangHierarchicalStructureKey2016}
+Kang, N., Zhao, C., Li, J., and Horst, J.~A. (2016).
+\newblock A {{Hierarchical}} structure of key performance indicators for
+  operation management and continuous improvement in production systems.
+\newblock {\em International journal of production research},
+  54(21):6333--6350.
+
 \bibitem[Rose et~al., ]{roseInternetThingsOverview}
 Rose, K., Eldridge, S., and Chapin, L.
 \newblock The {{Internet}} of {{Things}}: {{An Overview}}.

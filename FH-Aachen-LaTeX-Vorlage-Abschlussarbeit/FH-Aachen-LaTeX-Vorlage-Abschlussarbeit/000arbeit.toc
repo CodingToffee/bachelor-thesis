@@ -13,6 +13,7 @@
 \contentsline {subparagraph}{\nonumberline IoT Component Capability Model Pattern}{6}{}%
 \contentsline {subparagraph}{\nonumberline Three-Tier Architecture Pattern}{7}{}%
 \contentsline {subsection}{\numberline {2.2.2}Performance measurement in production environments}{8}{}%
+\contentsline {paragraph}{\nonumberline Key Performance Indicators}{8}{}%
 \contentsline {subsection}{\numberline {2.2.3}IoT-Plattforms}{8}{}%
 \contentsline {subsection}{\numberline {2.2.4}Databases}{8}{}%
 \contentsline {subsection}{\numberline {2.2.5}Dashboarding}{8}{}%
