@@ -1,63 +1,71 @@
-This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: 000arbeit.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: ./doc/001titelblatt.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: ./doc/002erklaerung.aux
-A level-1 auxiliary file: ./doc/101kap1.aux
-A level-1 auxiliary file: ./doc/102kap2.aux
-A level-1 auxiliary file: ./doc/103kap3.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
+A level-1 auxiliary file: ./doc/101Introduction.aux
+Reallocating 'name_of_file' (item size: 1) to 25 items.
+A level-1 auxiliary file: ./doc/102Foundations.aux
+Reallocating 'name_of_file' (item size: 1) to 34 items.
+A level-1 auxiliary file: ./doc/103RequirementsAnalysis.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
 A level-1 auxiliary file: ./doc/111Schluss.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: apalike.bst
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+Reallocating 'name_of_file' (item size: 1) to 36 items.
 A level-1 auxiliary file: ./doc/202abkuerzungsverzeichnis.aux
 Database file #1: ./bib/quellen.bib
-Warning--I didn't find a database entry for "IIRA"
+Warning--I didn't find a database entry for "ashtonThatInternetThings"
 Warning--I didn't find a database entry for "Segmentation"
 Warning--I didn't find a database entry for "ImageAttack"
 Warning--to sort, need author or key in WhatIoTInternet
 Warning--empty year in WhatIoTInternet
-Warning--empty year in ashtonThatInternetThings
-Warning--empty journal in ashtonThatInternetThings
 Warning--empty year in roseInternetThingsOverview
 Warning--empty journal in roseInternetThingsOverview
-You've used 4 entries,
+Warning--empty journal in youngIndustrialInternetReference2022
+You've used 7 entries,
             1935 wiz_defined-function locations,
-            506 strings with 4665 characters,
-and the built_in function-call counts, 1290 in all, are:
-= -- 122
-> -- 48
-< -- 1
-+ -- 20
-- -- 16
-* -- 102
-:= -- 229
-add.period$ -- 9
-call.type$ -- 4
-change.case$ -- 28
-chr.to.int$ -- 4
-cite$ -- 11
-duplicate$ -- 50
-empty$ -- 91
-format.name$ -- 19
-if$ -- 241
+            527 strings with 5789 characters,
+and the built_in function-call counts, 3030 in all, are:
+= -- 299
+> -- 117
+< -- 4
++ -- 46
+- -- 40
+* -- 233
+:= -- 491
+add.period$ -- 18
+call.type$ -- 7
+change.case$ -- 55
+chr.to.int$ -- 7
+cite$ -- 13
+duplicate$ -- 131
+empty$ -- 217
+format.name$ -- 46
+if$ -- 616
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 3
-newline$ -- 20
-num.names$ -- 9
-pop$ -- 34
+missing$ -- 6
+newline$ -- 35
+num.names$ -- 18
+pop$ -- 71
 preamble$ -- 1
-purify$ -- 28
+purify$ -- 55
 quote$ -- 0
-skip$ -- 34
+skip$ -- 99
 stack$ -- 0
-substring$ -- 84
-swap$ -- 1
-text.length$ -- 0
+substring$ -- 218
+swap$ -- 31
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 24
-warning$ -- 6
-while$ -- 8
+type$ -- 42
+warning$ -- 5
+while$ -- 23
 width$ -- 0
-write$ -- 42
-(There were 9 warnings)
+write$ -- 82
+(There were 8 warnings)

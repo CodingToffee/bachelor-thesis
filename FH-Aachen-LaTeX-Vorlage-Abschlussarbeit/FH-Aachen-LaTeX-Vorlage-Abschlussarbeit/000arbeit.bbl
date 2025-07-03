@@ -6,9 +6,12 @@ What is {{IoT}} ({{Internet}} of {{Things}})? {\textbar} {{Definition}} from
 \newblock
   https://www.techtarget.com/iotagenda/definition/Internet-of-Things-IoT.
 
-\bibitem[Ashton, ]{ashtonThatInternetThings}
-Ashton, K.
-\newblock That '{{Internet}} of {{Things}}' {{Thing}}.
+\bibitem[Asemani et~al., 2019]{asemaniUnderstandingIoTPlatforms2019}
+Asemani, M., Abdollahei, F., and Jabbari, F. (2019).
+\newblock Understanding {{IoT Platforms}} : {{Towards}} a comprehensive
+  definition and main characteristic description.
+\newblock In {\em 2019 5th {{International Conference}} on {{Web Research}}
+  ({{ICWR}})}, pages 172--177.
 
 \bibitem[Kang et~al., 2016]{kangHierarchicalStructureKey2016}
 Kang, N., Zhao, C., Li, J., and Horst, J.~A. (2016).
@@ -20,5 +23,23 @@ Kang, N., Zhao, C., Li, J., and Horst, J.~A. (2016).
 \bibitem[Rose et~al., ]{roseInternetThingsOverview}
 Rose, K., Eldridge, S., and Chapin, L.
 \newblock The {{Internet}} of {{Things}}: {{An Overview}}.
+
+\bibitem[Turki et~al., 2024]{turkiEvaluatingOpenSource2024}
+Turki, M., Boussaidi, G.~E., Benzarti, I., and Mili, H. (2024).
+\newblock Evaluating {{Open Source IoT Platforms}}: {{A GitHub Analysis}}.
+\newblock In {\em 2024 {{IEEE}}/{{ACM}} 6th {{International Workshop}} on
+  {{Software Engineering Research}} \& {{Practices}} for the {{IoT}}
+  ({{SERP4IoT}})}, pages 14--21.
+
+\bibitem[T{\"u}rko{\u g}lu et~al., 2024]{turkogluComparisonTimeSeries2024}
+T{\"u}rko{\u g}lu, A., Ersen, O., Yi{\u g}it, {\.I}.~O., Unal, D., and Golcuk,
+  H. (2024).
+\newblock Comparison {{Between Time Series}} and {{Relational Databases}}.
+\newblock In {\em 2024 9th {{International Conference}} on {{Computer Science}}
+  and {{Engineering}} ({{UBMK}})}, pages 1174--1177.
+
+\bibitem[Young, 2022]{youngIndustrialInternetReference2022}
+Young, D. T.-T. (2022).
+\newblock The {{Industrial Internet Reference Architecture}}.
 
 \end{thebibliography}
