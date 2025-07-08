@@ -13,30 +13,30 @@
 \contentsline {subparagraph}{\nonumberline IoT Component Capability Model Pattern}{6}{}%
 \contentsline {subparagraph}{\nonumberline Three-Tier Architecture Pattern}{7}{}%
 \contentsline {subsection}{\numberline {2.2.2}Performance measurement in production environments}{8}{}%
-\contentsline {subsection}{\numberline {2.2.3}IoT-Plattforms}{8}{}%
-\contentsline {paragraph}{\nonumberline Connectivity and Device Management}{8}{}%
-\contentsline {paragraph}{\nonumberline Data Storage, Management, Analysis, Visualization}{8}{}%
-\contentsline {paragraph}{\nonumberline Development and Deployment Tools}{8}{}%
-\contentsline {paragraph}{\nonumberline Auditing and Payments}{8}{}%
-\contentsline {paragraph}{\nonumberline Service Management}{8}{}%
-\contentsline {paragraph}{\nonumberline Integration}{9}{}%
-\contentsline {paragraph}{\nonumberline Fog/Edge Computing}{9}{}%
-\contentsline {subsection}{\numberline {2.2.4}Differences between Relational and Timeseries Databases}{9}{}%
-\contentsline {subsection}{\numberline {2.2.5}Dashboarding}{9}{}%
+\contentsline {subsection}{\numberline {2.2.3}IoT-Plattforms}{10}{}%
+\contentsline {paragraph}{\nonumberline Connectivity and Device Management}{10}{}%
+\contentsline {paragraph}{\nonumberline Data Storage, Management, Analysis, Visualization}{10}{}%
+\contentsline {paragraph}{\nonumberline Development and Deployment Tools}{10}{}%
+\contentsline {paragraph}{\nonumberline Auditing and Payments}{11}{}%
+\contentsline {paragraph}{\nonumberline Service Management}{11}{}%
+\contentsline {paragraph}{\nonumberline Integration}{11}{}%
+\contentsline {paragraph}{\nonumberline Fog/Edge Computing}{11}{}%
+\contentsline {subsection}{\numberline {2.2.4}Differences between Relational and Timeseries Databases}{11}{}%
+\contentsline {subsection}{\numberline {2.2.5}Dashboarding}{12}{}%
 \vspace {0.8cm}
-\contentsline {chapter}{\numberline {3}\textbf {Requirements Analysis}}{10}{}%
-\contentsline {subsection}{\numberline {3.0.1}Functional Requirements}{10}{}%
-\contentsline {subsection}{\numberline {3.0.2}Non-Functional Requirements}{10}{}%
-\contentsline {subsection}{\numberline {3.0.3}Constraints}{10}{}%
-\contentsline {subsection}{\numberline {3.0.4}KPI Selection and Justification}{10}{}%
-\contentsline {chapter}{\numberline {4}\textbf {Zusammenfassung und Ausblick}}{11}{}%
+\contentsline {chapter}{\numberline {3}\textbf {Requirements Analysis}}{13}{}%
+\contentsline {subsection}{\numberline {3.0.1}Functional Requirements}{13}{}%
+\contentsline {subsection}{\numberline {3.0.2}Non-Functional Requirements}{13}{}%
+\contentsline {subsection}{\numberline {3.0.3}Constraints}{13}{}%
+\contentsline {subsection}{\numberline {3.0.4}KPI Selection and Justification}{13}{}%
+\contentsline {chapter}{\numberline {4}\textbf {Zusammenfassung und Ausblick}}{14}{}%
 \vspace {0.8cm}
-\contentsline {chapter}{Quellenverzeichnis}{12}{}%
-\contentsline {chapter}{Abkürzungsverzeichnis}{13}{}%
-\contentsline {chapter}{Abbildungsverzeichnis}{14}{}%
-\contentsline {chapter}{Tabellenverzeichnis}{15}{}%
+\contentsline {chapter}{Quellenverzeichnis}{15}{}%
+\contentsline {chapter}{Abkürzungsverzeichnis}{16}{}%
+\contentsline {chapter}{Abbildungsverzeichnis}{17}{}%
+\contentsline {chapter}{Tabellenverzeichnis}{18}{}%
 \vspace {0.8cm}
-\contentsline {chapter}{Anhang}{15}{}%
-\contentsline {chapter}{\numberline {A}Quellcode}{16}{}%
-\contentsline {chapter}{\numberline {B}Rohdatenvisualisierungen}{17}{}%
+\contentsline {chapter}{Anhang}{18}{}%
+\contentsline {chapter}{\numberline {A}Quellcode}{19}{}%
+\contentsline {chapter}{\numberline {B}Rohdatenvisualisierungen}{20}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

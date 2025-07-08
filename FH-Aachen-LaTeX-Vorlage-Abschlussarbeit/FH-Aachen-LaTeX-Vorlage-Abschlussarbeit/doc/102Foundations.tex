@@ -29,8 +29,76 @@ The three tiers can also be further divided into different domains. That makes s
 	\caption{Three Tier Architecture \\ (Young et al., 2022, S. 44)}
 	\label{fig:Three-Tier-Architecture}
 \end{figure}
-\subsection{Performance measurement in production environments}
-
+\subsection{KPIs and Metrics for Performance Evaluation in Sewing Operations}
+Performance measurement in the textile production industry is important due to intense competition. It enables producers to identify potential bottlenecks, provides a deeper understanding of processes, and facilitates more effective resource allocation \cite{alauddinProcessImprovementSewing2018}.
+\\Key performance indicators (KPIs) and metrics serve as essential tools for performance measurement. Kang et al. \cite{kangHierarchicalStructureKey2016} from the National Institute of Standards and Technology in the United States analyzed the relationships among various types of KPIs and metrics used in operations management and production, based on the ISO 22400 standard.
+Supporting elements, referred to as metrics in this thesis, describe the measured data necessary for calculating basic KPIs. These supporting elements are categorized into time and quantity.
+Time elements quantify the duration of various events, such as the production time per unit. Conversely, quantity elements pertain to the number of produced items.
+Maintenance elements capture information about machine-related issues. 
+\\Based on the supporting elements, basic KPIs can be calculated. These KPIs are categorized into production, quality, and maintenance KPIs.
+\\The researchers also emphasize the importance of comprehensive KPIs, which provide a broader overview of production performance. These KPIs build upon basic KPIs and include, for example, Overall Equipment Effectiveness (OEE), which is calculated by multiplying the KPIs for availability, performance, and quality ratio.
+\\Other studies \cite{kironKPIKeyPerformance2022, alauddinProcessImprovementSewing2018} have specified KPIs specifically for the sewing section of a textile production plant. In this context, some KPIs overlap with those examined by Kang et al., while additional KPIs unique to the sewing section have also been introduced. The following table classifies these sewing-specific KPIs within the hierarchical framework proposed by Kang et al.
+\begin{longtable}{|p{3cm}|p{7cm}|p{4cm}|}
+	\caption{Classification of KPIs and Metrics in Sewing Section (based on Kang et al., 2016 and ISO 22400)} \\
+	\hline
+	\textbf{KPI/Metric} & \textbf{Description} & \textbf{Classification (Kang et al., 2016 / ISO 22400)} \\
+	\hline
+	\endfirsthead
+	
+	\hline
+	\textbf{KPI/Metric} & \textbf{Description} & \textbf{Classification (Kang et al., 2016 / ISO 22400)} \\
+	\hline
+	\endhead
+	% --- Supporting Element: Time ---
+	\multicolumn{3}{|l|}{\textbf{Supporting Element: Time}} \\
+	\hline
+	Cycle Time & Total time taken to complete one operation, from start to start of the next piece. & Supporting Element: Time \\
+	\hline
+	Standard Minute Value (SMV) & Time required to complete a specific job under standard conditions and pace. & Supporting Element: Time \\
+	\hline
+	Allowance & Extra time permitted for personal needs, delays, and fatigue in production. & Supporting Element: Time \\
+	\hline
+	Idle Time/Machine & Time when operators or machines are not working, considered lost time. & Supporting Element: Time \\
+	\hline
+	% --- Supporting Element: Quantity ---
+	\multicolumn{3}{|l|}{\textbf{Supporting Element: Quantity}} \\
+	\hline
+	Operation & A step in the process required to convert materials into a finished product. & Supporting Element: Quantity \\
+	\hline
+	Manpower to Machine Ratio & Ratio of workers to machines, used to optimize labor and production. & Supporting Element: Quantity \\
+	\hline
+	Absenteeism & Rate of operator absence, which affects production and efficiency. & Supporting Element: Quantity \\
+	\hline
+	No of Style Change & Frequency of style changes, impacting productivity, efficiency, and quality. & Supporting Element: Quantity \\
+	\hline
+	% --- Basic KPI: Production ---
+	\multicolumn{3}{|l|}{\textbf{Basic KPI: Production}} \\
+	\hline
+	Efficiency & Comparison of actual output to what could be achieved with the same resources. & Basic KPI: Production \\
+	\hline
+	Productivity & Achievement toward goals based on the relationship between inputs and outputs. & Basic KPI: Production \\
+	\hline
+	Availability & Percentage of scheduled time employees or machines are productive. & Basic KPI: Production \\
+	\hline
+	Performance & Amount of product delivered relative to available productive time. & Basic KPI: Production \\
+	\hline
+	Line Wise Sewing Efficiency & Efficiency of sewing lines, often linked to man-to-machine ratio. & Basic KPI: Production \\
+	\hline
+	% --- Basic KPI: Quality ---
+	\multicolumn{3}{|l|}{\textbf{Basic KPI: Quality}} \\
+	\hline
+	Defect per Hundred Units (DHU) & Number of defects found per hundred units produced. & Basic KPI: Quality \\
+	\hline
+	Quality & Percentage of perfect or saleable products produced. & Basic KPI: Quality \\
+	\hline
+	% --- Comprehensive KPI ---
+	\multicolumn{3}{|l|}{\textbf{Comprehensive KPI}} \\
+	\hline
+	Overall Labor Effectiveness (OLE) & Measures workforce utilization, performance, and quality, reflecting labor's impact on productivity. & Comprehensive KPI \\
+	\hline
+	Overall Equipment Effectiveness (OEE) & Quantifies how well equipment performs relative to its designed capacity, considering availability, performance, and quality. & Comprehensive KPI \\
+	\hline
+\end{longtable}
 \subsection{IoT-Plattforms}
 The IoT is known for producing large amounts of data and for the potentials to grow these amounts even more. Therefore a scalable software infrastructure that is needed. That is where IoT-Plattforms come into play \cite{turkiEvaluatingOpenSource2024}. The authors also mention that IoT-Platforms help accelerating the solution development "[...] by providing foundational capabilities, avoiding the need to implement low-level infrastructure."
 \\\cite{asemaniUnderstandingIoTPlatforms2019} further highlight the different capabilities that are typical for IoT-Platforms.
