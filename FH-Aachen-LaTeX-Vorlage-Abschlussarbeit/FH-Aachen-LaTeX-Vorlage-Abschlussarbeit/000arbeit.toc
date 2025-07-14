@@ -12,7 +12,7 @@
 \contentsline {paragraph}{\nonumberline Architecture Patterns}{6}{}%
 \contentsline {subparagraph}{\nonumberline IoT Component Capability Model Pattern}{6}{}%
 \contentsline {subparagraph}{\nonumberline Three-Tier Architecture Pattern}{7}{}%
-\contentsline {subsection}{\numberline {2.2.2}Performance measurement in production environments}{8}{}%
+\contentsline {subsection}{\numberline {2.2.2}KPIs and Metrics for Performance Evaluation in Sewing Operations}{8}{}%
 \contentsline {subsection}{\numberline {2.2.3}IoT-Plattforms}{10}{}%
 \contentsline {paragraph}{\nonumberline Connectivity and Device Management}{10}{}%
 \contentsline {paragraph}{\nonumberline Data Storage, Management, Analysis, Visualization}{10}{}%

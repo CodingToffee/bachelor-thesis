@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.3)  8 JUL 2025 16:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.3)  14 JUL 2025 12:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1192,10 +1192,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 16770 strings out of 468220
- 338380 string characters out of 5432871
- 915537 words of memory out of 5000000
- 44970 multiletter control sequences out of 15000+600000
+ 16771 strings out of 468220
+ 338392 string characters out of 5432871
+ 915650 words of memory out of 5000000
+ 44971 multiletter control sequences out of 15000+600000
  644704 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,20n,107p,10956b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1206,7 +1206,7 @@ rw/helvetic/uhvb8a.pfb><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/type
 1/urw/times/utmb8a.pfb><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/type
 1/urw/times/utmr8a.pfb><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/type
 1/urw/times/utmri8a.pfb>
-Output written on 000arbeit.pdf (20 pages, 299142 bytes).
+Output written on 000arbeit.pdf (20 pages, 300822 bytes).
 PDF statistics:
  105 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
