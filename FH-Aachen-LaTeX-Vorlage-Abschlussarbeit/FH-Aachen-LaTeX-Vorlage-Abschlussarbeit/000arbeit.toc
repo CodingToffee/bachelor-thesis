@@ -6,11 +6,12 @@
 \vspace {0.8cm}
 \contentsline {chapter}{\numberline {2}\textbf {Foundations}}{6}{}%
 \contentsline {section}{\numberline {2.1}Definitions}{6}{}%
-\contentsline {subsection}{\numberline {2.1.1}IoT and IIoT}{6}{}%
+\contentsline {subsection}{\numberline {2.1.1}Takt Time}{6}{}%
+\contentsline {subsection}{\numberline {2.1.2}IoT and IIoT}{6}{}%
 \contentsline {section}{\numberline {2.2}State of the Art}{6}{}%
 \contentsline {subsection}{\numberline {2.2.1}Industrial IoT Architectures and Patterns}{6}{}%
 \contentsline {paragraph}{\nonumberline Architecture Patterns}{6}{}%
-\contentsline {subparagraph}{\nonumberline IoT Component Capability Model Pattern}{6}{}%
+\contentsline {subparagraph}{\nonumberline IoT Component Capability Model Pattern}{7}{}%
 \contentsline {subparagraph}{\nonumberline Three-Tier Architecture Pattern}{7}{}%
 \contentsline {subsection}{\numberline {2.2.2}KPIs and Metrics for Performance Evaluation in Sewing Operations}{8}{}%
 \contentsline {subsection}{\numberline {2.2.3}IoT-Plattforms}{10}{}%
@@ -24,19 +25,20 @@
 \contentsline {subsection}{\numberline {2.2.4}Differences between Relational and Timeseries Databases}{11}{}%
 \contentsline {subsection}{\numberline {2.2.5}Dashboarding}{12}{}%
 \vspace {0.8cm}
-\contentsline {chapter}{\numberline {3}\textbf {Requirements Analysis}}{13}{}%
-\contentsline {subsection}{\numberline {3.0.1}Functional Requirements}{13}{}%
-\contentsline {subsection}{\numberline {3.0.2}Non-Functional Requirements}{13}{}%
-\contentsline {subsection}{\numberline {3.0.3}Constraints}{13}{}%
-\contentsline {subsection}{\numberline {3.0.4}KPI Selection and Justification}{13}{}%
-\contentsline {chapter}{\numberline {4}\textbf {Zusammenfassung und Ausblick}}{14}{}%
+\contentsline {chapter}{\numberline {3}\textbf {Related Work}}{13}{}%
+\contentsline {chapter}{\numberline {4}\textbf {Requirements Analysis}}{16}{}%
+\contentsline {subsection}{\numberline {4.0.1}Functional Requirements}{16}{}%
+\contentsline {subsection}{\numberline {4.0.2}Non-Functional Requirements}{16}{}%
+\contentsline {subsection}{\numberline {4.0.3}Constraints}{16}{}%
+\contentsline {subsection}{\numberline {4.0.4}KPI Selection and Justification}{16}{}%
+\contentsline {chapter}{\numberline {5}\textbf {Zusammenfassung und Ausblick}}{17}{}%
 \vspace {0.8cm}
-\contentsline {chapter}{Quellenverzeichnis}{15}{}%
-\contentsline {chapter}{Abkürzungsverzeichnis}{16}{}%
-\contentsline {chapter}{Abbildungsverzeichnis}{17}{}%
-\contentsline {chapter}{Tabellenverzeichnis}{18}{}%
+\contentsline {chapter}{Quellenverzeichnis}{18}{}%
+\contentsline {chapter}{Abkürzungsverzeichnis}{19}{}%
+\contentsline {chapter}{Abbildungsverzeichnis}{20}{}%
+\contentsline {chapter}{Tabellenverzeichnis}{21}{}%
 \vspace {0.8cm}
-\contentsline {chapter}{Anhang}{18}{}%
-\contentsline {chapter}{\numberline {A}Quellcode}{19}{}%
-\contentsline {chapter}{\numberline {B}Rohdatenvisualisierungen}{20}{}%
+\contentsline {chapter}{Anhang}{21}{}%
+\contentsline {chapter}{\numberline {A}Quellcode}{22}{}%
+\contentsline {chapter}{\numberline {B}Rohdatenvisualisierungen}{23}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

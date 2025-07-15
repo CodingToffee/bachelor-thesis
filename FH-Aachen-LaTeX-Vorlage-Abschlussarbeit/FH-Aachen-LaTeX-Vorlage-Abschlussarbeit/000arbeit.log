@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.3)  14 JUL 2025 12:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.3)  15 JUL 2025 13:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -710,7 +710,7 @@ tex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count344
 ) (000arbeit.aux (doc/001titelblatt.aux) (doc/002erklaerung.aux)
-(doc/101Introduction.aux) (doc/102Foundations.aux)
+(doc/101Introduction.aux) (doc/102Foundations.aux) (doc/102RelatedWork.aux)
 (doc/103RequirementsAnalysis.aux
 
 LaTeX Warning: Label `grundlagen' multiply defined.
@@ -939,16 +939,16 @@ chapter 1.
 chapter 2.
 
 LaTeX Warning: Citation `ashtonThatInternetThings' on page 6 undefined on input
- line 6.
+ line 8.
 
 <pic/IIRA-model-component-pattern.png, id=20, 514.17094pt x 289.08pt>
 File: pic/IIRA-model-component-pattern.png Graphic file (type png)
 <use pic/IIRA-model-component-pattern.png>
 Package pdftex.def Info: pic/IIRA-model-component-pattern.png  used on input li
-ne 18.
+ne 20.
 (pdftex.def)             Requested size: 426.79135pt x 239.95839pt.
 
-Overfull \hbox (4.64394pt too wide) in paragraph at lines 16--21
+Overfull \hbox (4.64394pt too wide) in paragraph at lines 18--23
 \OT1/ptm/m/n/10.95 bil-i-ties are de-scribed, with the pos-si-bil-ity that a co
 m-po-nent may com-prise mul-ti-ple sub-components.
  []
@@ -965,44 +965,39 @@ m-po-nent may com-prise mul-ti-ple sub-components.
 <pic/three-tier-architecture.jpg, id=26, 584.1825pt x 312.41719pt>
 File: pic/three-tier-architecture.jpg Graphic file (type jpg)
 <use pic/three-tier-architecture.jpg>
-Package pdftex.def Info: pic/three-tier-architecture.jpg  used on input line 28
+Package pdftex.def Info: pic/three-tier-architecture.jpg  used on input line 30
 .
 (pdftex.def)             Requested size: 426.79135pt x 228.25333pt.
 
 
 [7 <./pic/IIRA-model-component-pattern.png>]
-Underfull \hbox (badness 1418) in paragraph at lines 44--45
+Underfull \hbox (badness 1418) in paragraph at lines 46--47
 []|\OT1/ptm/b/n/10.95 Classification (Kang et
  []
 
 
-Overfull \hbox (9.14719pt too wide) in alignment at lines 41--46
+Overfull \hbox (9.14719pt too wide) in alignment at lines 43--48
  [] [] [] 
  []
 
 
-Underfull \hbox (badness 1418) in paragraph at lines 49--50
+Underfull \hbox (badness 1418) in paragraph at lines 51--52
 []|\OT1/ptm/b/n/10.95 Classification (Kang et
  []
 
 
-Overfull \hbox (9.14719pt too wide) in alignment at lines 46--51
+Overfull \hbox (9.14719pt too wide) in alignment at lines 48--53
  [] [] [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-[]|\OT1/ptm/m/n/10.95 Supporting El-e-ment:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
-[]|\OT1/ptm/m/n/10.95 Standard Minute
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 57--58
 []|\OT1/ptm/m/n/10.95 Supporting El-e-ment:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]|\OT1/ptm/m/n/10.95 Standard Minute
  []
 
 
@@ -1016,7 +1011,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--62
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 []|\OT1/ptm/m/n/10.95 Supporting El-e-ment:
  []
 
@@ -1036,24 +1031,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--73
  []
 
 
-Underfull \hbox (badness 8094) in paragraph at lines 90--90
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+[]|\OT1/ptm/m/n/10.95 Supporting El-e-ment:
+ []
+
+
+Underfull \hbox (badness 8094) in paragraph at lines 92--92
 []|\OT1/ptm/m/n/10.95 Defect per Hun-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
 []|\OT1/ptm/m/n/10.95 Overall Equip-
  []
 
 
-Overfull \hbox (9.14719pt too wide) in alignment at lines 51--101
+Overfull \hbox (9.14719pt too wide) in alignment at lines 53--103
  [] [] [] 
  []
 
 
 
 [8 <./pic/three-tier-architecture.jpg>] [9]
-Overfull \hbox (0.78003pt too wide) in paragraph at lines 106--107
+Overfull \hbox (0.78003pt too wide) in paragraph at lines 108--109
 [] \OT1/phv/b/n/10.95 Con-nec-tiv-ity and De-vice Man-age-ment[][] \OT1/ptm/m/n
 /10.95 Through var-i-ous com-mu-ni-ca-tion pro-to-cols the plat-
  []
@@ -1061,26 +1061,42 @@ Overfull \hbox (0.78003pt too wide) in paragraph at lines 106--107
 
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 118--120
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
 
 <pic/query-performance-db.png, id=41, 506.6428pt x 292.84406pt>
 File: pic/query-performance-db.png Graphic file (type png)
 <use pic/query-performance-db.png>
-Package pdftex.def Info: pic/query-performance-db.png  used on input line 126.
+Package pdftex.def Info: pic/query-performance-db.png  used on input line 128.
 (pdftex.def)             Requested size: 426.79135pt x 246.69334pt.
 
 
 [11])
 
 [12 <./pic/query-performance-db.png>]
-\openout2 = `./doc/103RequirementsAnalysis.aux'.
+\openout2 = `./doc/102RelatedWork.aux'.
 
- (doc/103RequirementsAnalysis.tex
+ (doc/102RelatedWork.tex
 chapter 3.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 6--149
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--18
+
+ []
+
+
+Overfull \hbox (44.8964pt too wide) in paragraph at lines 3--18
+\OT1/ptm/m/n/10.95 Another sys-tem that uses power con-sump-tion mea-sure-ment 
+was pro-posed by Strazin-skas [[]].
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--18
 
  []
 
@@ -1091,14 +1107,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--149
 
 
 
+
+]
+
+[14])
+
+[15]
+\openout2 = `./doc/103RequirementsAnalysis.aux'.
+
+ (doc/103RequirementsAnalysis.tex
+chapter 4.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 6--150
+
+ []
+
+
+
+[16
+
+
+
+
 ]
 \openout2 = `./doc/111Schluss.aux'.
 
  (doc/111Schluss.tex
-chapter 4.
+chapter 5.
 )
 
-[14
+[17
 
 
 
@@ -1106,10 +1144,10 @@ chapter 4.
 
 ]
 
-LaTeX Warning: Citation `Segmentation' undefined on input line 153.
+LaTeX Warning: Citation `Segmentation' undefined on input line 154.
 
 
-LaTeX Warning: Citation `ImageAttack' undefined on input line 154.
+LaTeX Warning: Citation `ImageAttack' undefined on input line 155.
 
 (000arbeit.bbl
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 4
@@ -1128,7 +1166,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--8
 
 )
 
-[15
+[18
 
 
 
@@ -1138,7 +1176,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--8
 
  (doc/202abkuerzungsverzeichnis.tex)
 
-[16
+[19
 
 
 
@@ -1149,7 +1187,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--8
 
 
 
-[17
+[20
 
 
 
@@ -1160,23 +1198,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--8
 
 
 
-[18
+[21
 
 
 ]
 chapter A.
 
 
-[19
+[22
 
 ]
 chapter B.
 
 
-[20
+[23
 
 ] (000arbeit.aux (doc/001titelblatt.aux) (doc/002erklaerung.aux)
-(doc/101Introduction.aux) (doc/102Foundations.aux)
+(doc/101Introduction.aux) (doc/102Foundations.aux) (doc/102RelatedWork.aux)
 (doc/103RequirementsAnalysis.aux) (doc/111Schluss.aux)
 (doc/202abkuerzungsverzeichnis.aux))
  ***********
@@ -1192,10 +1230,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 16771 strings out of 468220
- 338392 string characters out of 5432871
- 915650 words of memory out of 5000000
- 44971 multiletter control sequences out of 15000+600000
+ 16801 strings out of 468220
+ 339798 string characters out of 5432871
+ 916147 words of memory out of 5000000
+ 44994 multiletter control sequences out of 15000+600000
  644704 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,20n,107p,10956b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1206,9 +1244,9 @@ rw/helvetic/uhvb8a.pfb><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/type
 1/urw/times/utmb8a.pfb><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/type
 1/urw/times/utmr8a.pfb><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/type
 1/urw/times/utmri8a.pfb>
-Output written on 000arbeit.pdf (20 pages, 300822 bytes).
+Output written on 000arbeit.pdf (23 pages, 309642 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
+ 114 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

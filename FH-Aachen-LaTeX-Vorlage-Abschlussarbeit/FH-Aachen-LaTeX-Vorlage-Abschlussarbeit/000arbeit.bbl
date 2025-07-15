@@ -18,6 +18,12 @@ Asemani, M., Abdollahei, F., and Jabbari, F. (2019).
 \newblock In {\em 2019 5th {{International Conference}} on {{Web Research}}
   ({{ICWR}})}, pages 172--177.
 
+\bibitem[Jung et~al., 2020]{jungRemoteSensingSewing2020}
+Jung, W.-K., Park, Y.-C., Lee, J.-W., and Suh, E.~S. (2020).
+\newblock Remote {{Sensing}} of {{Sewing Work Levels Using}} a {{Power
+  Monitoring System}}.
+\newblock {\em Applied Sciences}, 10(9):3104.
+
 \bibitem[Kang et~al., 2016]{kangHierarchicalStructureKey2016}
 Kang, N., Zhao, C., Li, J., and Horst, J.~A. (2016).
 \newblock A {{Hierarchical}} structure of key performance indicators for
@@ -29,9 +35,30 @@ Kang, N., Zhao, C., Li, J., and Horst, J.~A. (2016).
 Kiron, M.~I. (2022).
 \newblock {{KPI}} ({{Key Performance Indicator}}) in {{Garment Industry}}.
 
+\bibitem[Quoc et~al., 2025]{quocApplyingIoTOperations2025}
+Quoc, H.~D., Thuy, T. T.~T., Sinh, Q.~N., Danh, H.~B., and Lan, A. V.~T.
+  (2025).
+\newblock Applying {{IoT}} for {{Operations Management}} and {{Production
+  Planning}} in {{Industrial Sewing}}.
+\newblock In Nghia, P.~T., Thai, V.~D., Thuy, N.~T., Huynh, V.-N., and
+  Van~Huan, N., editors, {\em Advances in {{Information}} and {{Communication
+  Technology}}}, pages 1054--1062, Cham. Springer Nature Switzerland.
+
 \bibitem[Rose et~al., ]{roseInternetThingsOverview}
 Rose, K., Eldridge, S., and Chapin, L.
 \newblock The {{Internet}} of {{Things}}: {{An Overview}}.
+
+\bibitem[Stra{\v z}inskas, 2025]{strazinskasDevelopmentSolutionMonitoring2025}
+Stra{\v z}inskas, P. (2025).
+\newblock {\em Development of a Solution for Monitoring and Recording the State
+  of a Sewing Machine /}.
+\newblock PhD thesis, Kauno technologijos universitetas.
+
+\bibitem[Tambare et~al., 2022]{tambarePerformanceMeasurementSystem2022}
+Tambare, P., Meshram, C., Lee, C.-C., Ramteke, R.~J., and Imoize, A.~L. (2022).
+\newblock Performance {{Measurement System}} and {{Quality Management}} in
+  {{Data-Driven Industry}} 4.0: {{A Review}}.
+\newblock {\em Sensors}, 22(1):224.
 
 \bibitem[Turki et~al., 2024]{turkiEvaluatingOpenSource2024}
 Turki, M., Boussaidi, G.~E., Benzarti, I., and Mili, H. (2024).
@@ -46,6 +73,13 @@ T{\"u}rko{\u g}lu, A., Ersen, O., Yi{\u g}it, {\.I}.~O., Unal, D., and Golcuk,
 \newblock Comparison {{Between Time Series}} and {{Relational Databases}}.
 \newblock In {\em 2024 9th {{International Conference}} on {{Computer Science}}
   and {{Engineering}} ({{UBMK}})}, pages 1174--1177.
+
+\bibitem[Wedanage and Thiwanka, 2022]{wedanageFogAssistedIndustrial2022}
+Wedanage, D. K. H.~W. and Thiwanka, G.~M. (2022).
+\newblock Fog {{Assisted Industrial IoT Module}} for {{Cycle Time Capturing}}
+  in {{Apparel Industry}}.
+\newblock In {\em 2022 {{International Mobile}} and {{Embedded Technology
+  Conference}} ({{MECON}})}, pages 352--356.
 
 \bibitem[Young, 2022]{youngIndustrialInternetReference2022}
 Young, D. T.-T. (2022).
