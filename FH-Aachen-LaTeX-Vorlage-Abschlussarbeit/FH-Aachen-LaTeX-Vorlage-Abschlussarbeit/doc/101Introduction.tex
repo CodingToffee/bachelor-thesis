@@ -1,30 +1,17 @@
 \clearpage
 \chapter{\textbf{Introduction}}\label{introduction}
-%\addtocontents{toc}{\vspace{0.8cm}}
+Industrial sewing machines are of crucial importance in the textile industry, where they are typically utilized in the final stage of production to assemble the end product. This stage necessitates the highest level of human involvement, thereby becoming a pivotal element in determining both production efficiency and product quality. Therefore, the implementation of performance measurement techniques is particularly appropriate in this context. In the field of performance measurement, the seminal work by Neely \cite{neelyPerformanceMeasurementSystem1995} is widely cited. They defined performance measurement as "[...] the process of quantifying the efficiency and effectiveness of action." . This is frequently achieved through the implementation of Key Performance Indicators (KPIs), as they are formally standardized in the ISO 22400 framework, which governs operations management and production.
+\\\\
+In recent years, the popularity of automatic systems for performance measurement on sewing machines has increased. Nonetheless, these systems continue to encounter certain challenges that have frequently been overlooked. Firstly, it must be acknowledged that a considerable number of systems are dependent on cloud technology. This reliance engenders certain issues, including elevated latency and the perpetual financial obligations associated with cloud usage. Secondly, the utilization of standards and frameworks is frequently neglected, which results in the complexity of scaling and maintaining these systems. Thirdly, the prevailing focus of numerous works in this field is retrofitting sewing machines, rather than utilizing the machine's inherent data, which often leads to the production of erroneous results. Fourthly, the dearth of software architecture that utilizes services engenders considerable challenges in achieving scalability.
+\\\\
+The objective of this thesis is to establish a replicable methodology for designing and implementing a performance measurement system, with a sewing machine serving as a case study. This encompasses the provision of an overview of standards frameworks and technologies, in addition to the demonstration of the selection process for the most suitable option and its subsequent implementation. This thesis proposes a system that maximizes the use of actively maintained open-source technologies while ensuring easy scalability for future expansion. The end result will be a dashboard that provides the most important KPIs (such as cycle time, OEE, setup time, and down time) in real time.
+\\\\
+The scope of this work is limited to a Brother sewing machine of type UF-8910, which is connected to a WAGO PLC of type 750-8101 PFC100 CS 2ETH. The WAGO PLC employs the OPC-UA protocol for data transmission to the network. The anticipated data flow and signals are modeled and do not originate from the physical sewing machine and PLC. The sewing machine is part of a shop-floor that is used for workshops where industry customers can gain insight into productivity and quality enhancements within production environments through digitization. The system outlined in this thesis is intended to serve as a demonstrative model, and as such, it will feature visualizations that elucidate its real-time capabilities. The derivation of KPIs must be constrained to those that require querying from the database without necessitating additional post-processing.
+\\\\
+The relevance of this thesis is predicated on the increasing demand for data-driven decision-making to optimize efficiency and reduce costs, a phenomenon that is especially pronounced in the highly competitive garment industry. Performance measurement systems empower production management to identify inefficiencies and minimize unproductive periods. Furthermore, they furnish actionable insights that facilitate targeted operator coaching. This thesis makes a significant contribution to the extant knowledge base concerning IoT-based monitoring systems, as it focuses on replicable methods. This as well as the focus on open source technology make the system architecture well suited for small and medium sized companies with limited resources.
+\\\\
+This thesis employs a design-science approach, with the sewing machine performance measurement system serving as the artifact. A literature review is also employed to provide a comprehensive overview of the extant related work, as well as the frameworks, standards, and technologies relevant to the subject. To further implement suitable technology solutions, a structured technology selection process is being developed and followed.
+\\\\
+In the following, the structure of this thesis is being outlined. The initial section presents the foundational technologies, frameworks, standards, and other groundwork upon which this work is based. The related work section then reviews relevant literature, examining systems with similar objectives to contextualize and position the approach proposed in this thesis. Subsequently, the requirements and system design section details the specific needs addressed by the system, as well as the selected KPIs and technologies. Building on this foundation, the implementation of the system is described. The subsequent evaluation section provides an analysis of the system’s strengths and limitations. Finally, the outlook and conclusion offer a summary of the findings and discuss potential directions for future development.
 
 
-%\par\medskip
-
-
-\section{Motivation und Aufgabenstellung}
-%\addtocontents{toc}{\vspace{0.8cm}}
-
-
-
-%% Beispiel für das Einfügen einer Abbildung
-
-%\begin{figure}[h]
-%	\centering
-%		\includegraphics[width=0.8\textwidth]{pic/dateiname.png}
-%	\caption{Beispielbild}
-%	\label{fig:beispielbild}
-%\end{figure}
-%\vspace{7cm} % Abstand unter dem Bild
-
-
-\newpage
-
-\section{Vorgehensweise}
-\addtocontents{toc}{\vspace{0.8cm}} % -> Abstand im Inhaltsverzeichnis
-
-% Untersuchungsverlauf(pro Kapitel ein kurzer Absatz mit Verweis auf die Kapitelnummer)
