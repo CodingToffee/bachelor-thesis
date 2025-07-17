@@ -1,6 +1,49 @@
 \chapter{\textbf{Requirements Analysis}}\label{grundlagen}
-\subsection{Functional Requirements} % (from your requirements table)
+In order to select the most suitable technologies and design the system, it is first necessary to establish clear requirements. In this chapter, the aforementioned requirements will be enumerated and elucidated.
+In order to maintain consistency regarding the compliance level, the terms "must," "should," and "will" were employed.
+The following words shall be explained in brief. The term "must" is employed to signify an unconditional obligation, implying that the fulfillment of this requirement is not subject to discussion or negotiation. The term "should" conveys a degree of desirability, indicating that fulfillment of the requirement would be advantageous. The term "will" signifies that this particular requirement is currently under consideration for inclusion in the subsequent release. However, it is imperative to maintain awareness of this requirement so that the system can be designed in a manner that facilitates its seamless integration in the future.
+\subsection{Functional System Requirements} % (from your requirements table)
+\begin{tabularx}{\textwidth}{|X|X|}
+	\hline
+\textbf{Requirement}	& \textbf{Explanation} \\
+	\hline
+The system must show KPIs that are relevant for the sewing process	&  In the workshops there must be some KPIs that fit into the story of a textile production with a sewing process\\
+	\hline
+The system should show aditional KPIs that are relevant for the manufacturing industry in general	&  Workshop participants are from all sorts of companies within the manufacturing industry\\
+	\hline
+ The system must present these KPIs in a visual manner that provides information about the classification of the current value e.g. with colors and thresholds	& So that the management can act quickly upon the KPIs and does not need to lookup thresholds \\
+	\hline
+The system must provide the user with the ability to change the timeframe on which the KPIs are calculated	&  Especially when looking at historic data it is usefull to be able to set the timeframe\\
+	\hline
+The system should show graphs with historical data & Enables management to see trends and patterns\\
+	\hline
+\end{tabularx}
+
 \subsection{Non-Functional Requirements} %(scalability, security, real-time processing)
+\begin{tabularx}{\textwidth}{|X|X|}
+	\hline
+\textbf{Requirement}	&  \textbf{Explanation}\\
+	\hline
+The system must make use of open source software where possible	&  To be replecable by small and medium companies\\
+	\hline
+The system must be capable to generate all of the KPIs from the machine-data without installing any additional sensors	&  \\
+	\hline
+The system must be designed in a way that makes it easily scalable	&  \\
+	\hline
+The system must be deployable with minimal effort	&  \\
+	\hline
+The system must be capable to retrieve raw data via opc-ua	&  \\
+	\hline
+The system should make use of existing patterns, frameworks and solutions were possible	&  \\
+	\hline
+The system should update the KPIs in real-time (<10s)	&  \\
+	\hline
+ The system must be able to run on a local machine and therefore independent of any cloud service	&  \\
+	\hline
+The system must provide the user with the ability to access the dashboard from within the shopfloor network	&  \\
+	\hline
+\end{tabularx}
+
 \subsection{Constraints} %(no additional sensors, existing infrastructure)
 \subsection{KPI Selection and Justification}
  Of which the following were able to be calculated with the given metrics.
