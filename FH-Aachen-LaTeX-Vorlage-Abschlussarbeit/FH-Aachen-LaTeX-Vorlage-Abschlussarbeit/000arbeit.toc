@@ -30,12 +30,12 @@
 \contentsline {subsection}{\numberline {4.0.4}KPI Selection and Justification}{17}{}%
 \contentsline {chapter}{\numberline {5}\textbf {Zusammenfassung und Ausblick}}{18}{}%
 \vspace {0.8cm}
-\contentsline {chapter}{Quellenverzeichnis}{19}{}%
-\contentsline {chapter}{Abkürzungsverzeichnis}{20}{}%
-\contentsline {chapter}{Abbildungsverzeichnis}{21}{}%
-\contentsline {chapter}{Tabellenverzeichnis}{22}{}%
+\contentsline {chapter}{Quellenverzeichnis}{20}{}%
+\contentsline {chapter}{Abkürzungsverzeichnis}{21}{}%
+\contentsline {chapter}{Abbildungsverzeichnis}{22}{}%
+\contentsline {chapter}{Tabellenverzeichnis}{23}{}%
 \vspace {0.8cm}
-\contentsline {chapter}{Anhang}{22}{}%
-\contentsline {chapter}{\numberline {A}Quellcode}{23}{}%
-\contentsline {chapter}{\numberline {B}Rohdatenvisualisierungen}{24}{}%
+\contentsline {chapter}{Anhang}{23}{}%
+\contentsline {chapter}{\numberline {A}Quellcode}{24}{}%
+\contentsline {chapter}{\numberline {B}Rohdatenvisualisierungen}{25}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

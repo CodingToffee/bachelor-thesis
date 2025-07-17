@@ -1,17 +1,26 @@
-This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: 000arbeit.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: ./doc/001titelblatt.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: ./doc/002erklaerung.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
 A level-1 auxiliary file: ./doc/101Introduction.aux
+Reallocating 'name_of_file' (item size: 1) to 25 items.
 A level-1 auxiliary file: ./doc/102Foundations.aux
+Reallocating 'name_of_file' (item size: 1) to 25 items.
 A level-1 auxiliary file: ./doc/102RelatedWork.aux
+Reallocating 'name_of_file' (item size: 1) to 34 items.
 A level-1 auxiliary file: ./doc/103RequirementsAnalysis.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
 A level-1 auxiliary file: ./doc/111Schluss.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: apalike.bst
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+Reallocating 'name_of_file' (item size: 1) to 36 items.
 A level-1 auxiliary file: ./doc/202abkuerzungsverzeichnis.aux
 Database file #1: ./bib/quellen.bib
-Warning--I didn't find a database entry for "neelyPerformanceMeasurementSystem1995"
 Warning--I didn't find a database entry for "ashtonThatInternetThings"
 Warning--I didn't find a database entry for "Segmentation"
 Warning--I didn't find a database entry for "ImageAttack"
@@ -21,45 +30,45 @@ Warning--empty journal in alauddinProcessImprovementSewing2018
 Warning--empty year in roseInternetThingsOverview
 Warning--empty journal in roseInternetThingsOverview
 Warning--empty journal in youngIndustrialInternetReference2022
-You've used 14 entries,
+You've used 15 entries,
             1935 wiz_defined-function locations,
-            579 strings with 7853 characters,
-and the built_in function-call counts, 5919 in all, are:
-= -- 578
-> -- 247
+            586 strings with 8059 characters,
+and the built_in function-call counts, 6339 in all, are:
+= -- 620
+> -- 265
 < -- 10
-+ -- 89
-- -- 83
-* -- 467
-:= -- 991
-add.period$ -- 38
-call.type$ -- 14
-change.case$ -- 108
-chr.to.int$ -- 14
-cite$ -- 21
-duplicate$ -- 250
-empty$ -- 410
-format.name$ -- 98
-if$ -- 1191
++ -- 95
+- -- 89
+* -- 507
+:= -- 1064
+add.period$ -- 41
+call.type$ -- 15
+change.case$ -- 116
+chr.to.int$ -- 15
+cite$ -- 22
+duplicate$ -- 264
+empty$ -- 439
+format.name$ -- 105
+if$ -- 1271
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 11
-newline$ -- 68
-num.names$ -- 41
-pop$ -- 123
+missing$ -- 12
+newline$ -- 73
+num.names$ -- 44
+pop$ -- 129
 preamble$ -- 1
-purify$ -- 109
+purify$ -- 117
 quote$ -- 0
-skip$ -- 195
+skip$ -- 205
 stack$ -- 0
-substring$ -- 395
-swap$ -- 56
+substring$ -- 429
+swap$ -- 57
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 84
+type$ -- 90
 warning$ -- 6
-while$ -- 46
+while$ -- 50
 width$ -- 0
-write$ -- 169
-(There were 10 warnings)
+write$ -- 182
+(There were 9 warnings)
