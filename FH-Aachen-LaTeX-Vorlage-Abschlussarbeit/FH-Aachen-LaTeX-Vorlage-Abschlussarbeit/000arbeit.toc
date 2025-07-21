@@ -26,16 +26,20 @@
 \contentsline {chapter}{\numberline {4}\textbf {Requirements Analysis}}{16}{}%
 \contentsline {subsection}{\numberline {4.0.1}Functional System Requirements}{16}{}%
 \contentsline {subsection}{\numberline {4.0.2}Non-Functional Requirements}{17}{}%
-\contentsline {subsection}{\numberline {4.0.3}Constraints}{17}{}%
-\contentsline {subsection}{\numberline {4.0.4}KPI Selection and Justification}{17}{}%
-\contentsline {chapter}{\numberline {5}\textbf {Zusammenfassung und Ausblick}}{18}{}%
+\contentsline {subsection}{\numberline {4.0.3}IoT Platform Selection}{17}{}%
+\contentsline {subsubsection}{\nonumberline Knock-Out Criteria}{18}{}%
+\contentsline {subsubsection}{\nonumberline High Importance Criteria}{18}{}%
+\contentsline {subsubsection}{\nonumberline Medium Importance Criteria}{19}{}%
+\contentsline {subsubsection}{\nonumberline Low Importance Criteria}{19}{}%
+\contentsline {subsection}{\numberline {4.0.4}KPI Selection and Justification}{19}{}%
+\contentsline {chapter}{\numberline {5}\textbf {Zusammenfassung und Ausblick}}{20}{}%
 \vspace {0.8cm}
-\contentsline {chapter}{Quellenverzeichnis}{20}{}%
-\contentsline {chapter}{Abkürzungsverzeichnis}{21}{}%
-\contentsline {chapter}{Abbildungsverzeichnis}{22}{}%
-\contentsline {chapter}{Tabellenverzeichnis}{23}{}%
+\contentsline {chapter}{Quellenverzeichnis}{22}{}%
+\contentsline {chapter}{Abkürzungsverzeichnis}{23}{}%
+\contentsline {chapter}{Abbildungsverzeichnis}{24}{}%
+\contentsline {chapter}{Tabellenverzeichnis}{25}{}%
 \vspace {0.8cm}
-\contentsline {chapter}{Anhang}{23}{}%
-\contentsline {chapter}{\numberline {A}Quellcode}{24}{}%
-\contentsline {chapter}{\numberline {B}Rohdatenvisualisierungen}{25}{}%
+\contentsline {chapter}{Anhang}{25}{}%
+\contentsline {chapter}{\numberline {A}Quellcode}{26}{}%
+\contentsline {chapter}{\numberline {B}Rohdatenvisualisierungen}{27}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

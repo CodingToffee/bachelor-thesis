@@ -44,7 +44,59 @@ The system must provide the user with the ability to access the dashboard from w
 	\hline
 \end{tabularx}
 
-\subsection{Constraints} %(no additional sensors, existing infrastructure)
+\subsection{IoT Platform Selection} 
+The raw data from the PLC had to undergo processing, storage, and visualization. The utility of IoT platforms stems from their ability to execute these functions and frequently extend beyond them.  These systems meet the criteria for scalability and leverage existing solutions. To ensure that the selected platform satisfies other requirements and does not conflict with any necessary ones, a decision support framework was developed. The present framework draws inspiration from the one proposed by Gustin et al. (cit. Gustin et al., 2022). The researchers identified a set of criteria and classified them into categories. The categories encompassed "Knock-Out," "Device Management," "Hosting," "General," and "Effort." Each category was assigned a weight, with the exception of the "Knock-Out" category. The "Knock-Out" category indicates that a criterion tagged with it must be met; otherwise, the platform will not be considered further. The weights are expressed as percentages, and when added together, they equal 100\%. In addition, each criterion is assigned a distinct weight, thereby enabling the allocation of greater significance to specific criteria. The evaluation of each platform is subsequently determined by the following formula:
+\[ s_i = f_i \cdot 100P \cdot \mathit{weight}_{category} \cdot \mathit{weight}_{criterion} \]
+In this context, $f_i$ denotes the fulfillment factor.
+The newly developed framework is distinguished by the following characteristics: The criteria are flexible and should be altered according to the requirements. Gustin et al. concentrate on device management; however, this is not a salient issue in the context of the proposed system. The categories were modified to "Knock-Out," "High Importance," "Mid Importance," and "Low Importance." In this manner, the criteria are not constrained to a particular subject matter; rather, they can be assigned an extent of importance at will. The numerical values assigned to the categories are as follows: 1 for low importance, 2 for medium importance, and 3 for high importance. The new formula for calculating the platforms' score is more straightforward as well:
+\[ s_i = f_i \cdot \mathit{weight}_{category} \]
+The fulfillment factor is typically binary in nature. The value of the variable can be either one or zero; however, in some cases, it can also be fractional. For instance, it would be advantageous for the platforms to support additional communication protocols beyond OPC UA. Specifically, the focus is on HTTP, MQTT, CoAP, and AMQP. In the event that a given platform offers support for only one of these, it is awarded a quarter point. In the event that this is the case, it will be elucidated in the subsequent explanation.
+The subsequent paragraphs will provide detailed explanations for each of the aforementioned criteria. A selection of the materials was obtained from the publication by Gustin et al. if their utility was deemed to be beneficial. The remaining ones were developed in response to specific requirements.
+
+\subsubsection{Knock-Out Criteria}
+\textbf{Availability of Documentation}\\
+The implementation, deployment, and utilization of the solution are contingent upon the availability of English-language documentation, which is imperative for effective operation. This criterion originates from the seminal contributions of Gustin et al.\\
+\textbf{Cloud independence}\\
+In order to guarantee that the platform can be hosted on a local server that is accessible via the shopfloor network and that no additional cloud services are required, this criterion was established. This criterion is derived directly from the stipulated requirements.\\
+\textbf{Ability to process raw data and derive KPI's from it}\\
+In order to visualize the KPIs, the data must first undergo processing, after which the KPIs are to be calculated based on the processed data. This criterion pertains to the requirement of calculating KPIs. \\
+\textbf{OPC-UA capability}\\
+The PLC that controls the sewing machine transmits the data via the OPC UA protocol. Therefore, it is imperative that the platform demonstrate its capacity to effectively manage this particular protocol. This criterion is predicated on the requirements.
+
+\subsubsection{High Importance Criteria}
+\textbf{Dashboarding Capabilities}\\
+In order to facilitate the visualization of KPIs, the platform must possess the capacity to construct dashboards. This criterion pertains to the necessity of possessing the capacity for visualizing KPIs.\\
+\textbf{Actively Maintained}\\
+This criterion is instrumental in ensuring the platform's security and compatibility with evolving technologies and standards.The necessity for this criterion arises from the imperative for open-source software.\\
+\textbf{Completion of Server SW}\\
+This criterion offers insight into the ease with which the software can be installed. A score of one is assigned if a Docker image is provided, and a score of zero is assigned if only source code is available. This criterion is derived from the work of Gustin et al.\\
+\textbf{Development of the server-side application}\\
+This criterion delineates the ease with which rules can be created and data processed within the application. In the event that a rule engine (low code) is provided, a point will be awarded. In the event that an SDK is provided, a total of 0.5 points will be allotted. This criterion originates from the work of Gustin et al.\\
+\textbf{Examples for Server-side implementation}\\
+These examples methodically illustrate the server-side implementation process and the anticipated outcomes.This approach has been shown to expedite the implementation process.
+This criterion originates from the work of Gustin et al.
+
+\subsubsection{Medium Importance Criteria}
+\textbf{Supports MQTT, HTTP, CoAP, AMQP}\\
+The implementation of these protocols would significantly augment the system's scalability, as it would facilitate the connection of a greater number of machines, gateways, and microcontrollers. This criterion pertains to the necessity of having a scalable system with minimal effort.\\
+\textbf{Availability of Tutorials}\\
+Tutorials are instrumental in facilitating user comprehension of the platform and its applications, thereby accelerating the development process. This criterion originates from the work of Gustin et al.
+
+\subsubsection{Low Importance Criteria}
+\textbf{Fault Detection}\\
+This feature facilitates the collection of data pertaining to anomalous behavior or fault conditions of the machine. Therefore, it facilitates the identification and resolution of potential issues. While it would certainly be a beneficial addition, this feature does not directly align with the primary objectives of the system.
+This criterion is derived from the work of Gustin et al.\\
+\textbf{Heartbeat Monitor}\\
+This feature periodically ascertains the online status of the connected machine. Consequently, this would facilitate the identification of device connectivity issues and ensure system reliability.
+This feature is commendable, yet it does not directly align with the primary function of the system.
+This criterion is derived from the work of Gustin et al.
+
+
+
+
+
+
+
 \subsection{KPI Selection and Justification}
  Of which the following were able to be calculated with the given metrics.
 \\
