@@ -50,7 +50,7 @@ The raw data from the PLC had to undergo processing, storage, and visualization.
 In this context, $f_i$ denotes the fulfillment factor.
 The newly developed framework is distinguished by the following characteristics: The criteria are flexible and should be altered according to the requirements. Gustin et al. concentrate on device management; however, this is not a salient issue in the context of the proposed system. The categories were modified to "Knock-Out," "High Importance," "Mid Importance," and "Low Importance." In this manner, the criteria are not constrained to a particular subject matter; rather, they can be assigned an extent of importance at will. The numerical values assigned to the categories are as follows: 1 for low importance, 2 for medium importance, and 3 for high importance. The new formula for calculating the platforms' score is more straightforward as well:
 \[ s_i = f_i \cdot \mathit{weight}_{category} \]
-The fulfillment factor is typically binary in nature. The value of the variable can be either one or zero; however, in some cases, it can also be fractional. For instance, it would be advantageous for the platforms to support additional communication protocols beyond OPC UA. Specifically, the focus is on HTTP, MQTT, CoAP, and AMQP. In the event that a given platform offers support for only one of these, it is awarded a quarter point. In the event that this is the case, it will be elucidated in the subsequent explanation.
+The fulfillment factor is typically binary in nature. The value of the variable can be either one or zero; however, in some cases, it can also be fractional. For instance, it would be advantageous for the platforms to support additional communication protocols beyond OPC UA. Specifically, the focus is on HTTP, MQTT, CoAP, and AMQP. In the event that a given platform offers support for only one of these, it is awarded a quarter point. In the event that this is the case, it will be elucidated in the subsequent explanation. The fulfillment of the criteria was determined in the same manner as that employed by the researchers. An investigation was conducted into the documentation, website, and GitHub repository of the platform. In the event that information regarding the availability of the criterion was ascertained, the point was granted. In the absence of pertinent information, the concept in question was deemed to be nonexistent.
 The subsequent paragraphs will provide detailed explanations for each of the aforementioned criteria. A selection of the materials was obtained from the publication by Gustin et al. if their utility was deemed to be beneficial. The remaining ones were developed in response to specific requirements.
 
 \subsubsection{Knock-Out Criteria}
@@ -89,9 +89,28 @@ This criterion is derived from the work of Gustin et al.\\
 \textbf{Heartbeat Monitor}\\
 This feature periodically ascertains the online status of the connected machine. Consequently, this would facilitate the identification of device connectivity issues and ensure system reliability.
 This feature is commendable, yet it does not directly align with the primary function of the system.
-This criterion is derived from the work of Gustin et al.
+This criterion is derived from the work of Gustin et al.\\\\
 
 
+The  platforms to be evaluated were derived from two papers that themselves evaluated IoT platforms. Initially, the open-source platforms cited by Gustin et al. were selected. These include openBalen, Thingsboard, Kapua, OpenRemote, Ubuntu Core, FIWARE, OpenMTC, Mainflux, and DeviceHive. In a separate study, Turki's 2024 investigation focused exclusively on the evaluation of open-source Internet of Things (IoT) platforms, utilizing data derived from GitHub statistics. The following factors were taken into consideration: the stars that were given by users, health, contributors, open issues, closed issues, and releases. Due to the more objective nature of this evaluation, only the top five IoT platforms were selected. The restriction to a specific number was necessitated by the impracticality of evaluating an indefinite number of platforms, as this would have entailed an inordinate amount of time. The top five platforms identified in this study are Thingsboard, Digiot, Mainflux, OpenRemote, and IotSharp.  However, it should be noted that only two of these findings were in disjunction with those selected from Gustin et al.'s work. In the course of the research, the Node-RED platform emerged on a regular basis; however, it was not referenced in the evaluated documents. The platform was also mentioned by a colleague, and it was therefore given due consideration. Additionally, UMH was selected for evaluation because it builds upon robust open-source tools, such as Grafana and Apache Kafka, and supports a wide array of protocols.\\
+The ensuing table 4.1 presents the results of the aforementioned calculations. It is imperative to note that only the platforms that met all of the Knock-Out criteria are displayed therein.\\
+
+\begin{table}[H]
+	%\toprule
+	\caption{IoT Platform Evaluation}
+	\label{tab:platform-evaluation}
+	\centering
+	\begin{tabu}{l @{\hspace{2cm}} r}
+		\textbf{IoT Platform} & \textbf{Score} \\
+		\midrule
+		Thingsboard  & 19.5 \\
+		Node-Red     & 21.5 \\
+		FIWARE       & 19.0 \\
+		OpenRemote   & 12.0 \\
+		UMH          & 20.5 \\
+		\bottomrule
+	\end{tabu}
+\end{table}
 
 
 
