@@ -1,69 +1,87 @@
-This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: 000arbeit.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: ./doc/001titelblatt.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
 A level-1 auxiliary file: ./doc/002erklaerung.aux
+Reallocating 'name_of_file' (item size: 1) to 26 items.
 A level-1 auxiliary file: ./doc/101Introduction.aux
+Reallocating 'name_of_file' (item size: 1) to 25 items.
 A level-1 auxiliary file: ./doc/102Foundations.aux
+Reallocating 'name_of_file' (item size: 1) to 25 items.
 A level-1 auxiliary file: ./doc/102RelatedWork.aux
+Reallocating 'name_of_file' (item size: 1) to 34 items.
 A level-1 auxiliary file: ./doc/103RequirementsAnalysis.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
 A level-1 auxiliary file: ./doc/111Schluss.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: apalike.bst
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+Reallocating 'name_of_file' (item size: 1) to 36 items.
 A level-1 auxiliary file: ./doc/202abkuerzungsverzeichnis.aux
 Database file #1: ./bib/quellen.bib
 Warning--I didn't find a database entry for "ashtonThatInternetThings"
-Warning--I didn't find a database entry for "UMHInstallationRequirements"
-Warning--I didn't find a database entry for "thingsboardInstallingThingsBoardCE"
-Warning--I didn't find a database entry for "RunningNodeREDLocally"
-Warning--I didn't find a database entry for "NodeRedMinimun2020"
-Warning--I didn't find a database entry for "ltdBuyRaspberryPi"
 Warning--I didn't find a database entry for "Segmentation"
 Warning--I didn't find a database entry for "ImageAttack"
 Warning--to sort, need author or key in WhatIoTInternet
+Warning--to sort, need author or key in UMHInstallationRequirements
+Warning--to sort, need author or key in RunningNodeREDLocally
+Warning--to sort, need author or key in NodeRedMinimun2020
+Warning--to sort, need author or key in WriteDataInfluxDB
+Warning--to sort, need author or key in Noderedcontribinfluxdb
+Warning--to sort, need author or key in QueryDataGet
+Warning--empty year in Noderedcontribinfluxdb
+Warning--empty year in QueryDataGet
+Warning--empty year in RunningNodeREDLocally
+Warning--empty year in UMHInstallationRequirements
 Warning--empty year in WhatIoTInternet
+Warning--empty year in WriteDataInfluxDB
 Warning--empty journal in alauddinProcessImprovementSewing2018
+Warning--empty year in ltdBuyRaspberryPi
 Warning--empty year in roseInternetThingsOverview
 Warning--empty journal in roseInternetThingsOverview
+Warning--empty year in thingsboardInstallingThingsBoardCE
 Warning--empty journal in youngIndustrialInternetReference2022
-You've used 16 entries,
+You've used 24 entries,
             1935 wiz_defined-function locations,
-            602 strings with 8584 characters,
-and the built_in function-call counts, 6785 in all, are:
-= -- 666
-> -- 278
-< -- 12
-+ -- 99
-- -- 93
-* -- 538
-:= -- 1133
-add.period$ -- 44
-call.type$ -- 16
-change.case$ -- 123
-chr.to.int$ -- 16
-cite$ -- 23
-duplicate$ -- 287
-empty$ -- 475
-format.name$ -- 112
-if$ -- 1368
+            631 strings with 9687 characters,
+and the built_in function-call counts, 8456 in all, are:
+= -- 849
+> -- 292
+< -- 14
++ -- 103
+- -- 97
+* -- 644
+:= -- 1411
+add.period$ -- 63
+call.type$ -- 24
+change.case$ -- 165
+chr.to.int$ -- 24
+cite$ -- 50
+duplicate$ -- 367
+empty$ -- 613
+format.name$ -- 118
+if$ -- 1697
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 13
-newline$ -- 78
-num.names$ -- 47
-pop$ -- 139
+newline$ -- 113
+num.names$ -- 53
+pop$ -- 183
 preamble$ -- 1
-purify$ -- 124
+purify$ -- 166
 quote$ -- 0
-skip$ -- 221
+skip$ -- 272
 stack$ -- 0
-substring$ -- 457
+substring$ -- 559
 swap$ -- 63
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 96
-warning$ -- 6
-while$ -- 55
+type$ -- 144
+warning$ -- 19
+while$ -- 59
 width$ -- 0
-write$ -- 195
-(There were 14 warnings)
+write$ -- 273
+(There were 22 warnings)

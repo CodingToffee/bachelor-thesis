@@ -26,12 +26,13 @@
 \contentsline {chapter}{\numberline {4}\textbf {Requirements Analysis}}{16}{}%
 \contentsline {subsection}{\numberline {4.0.1}Functional System Requirements}{16}{}%
 \contentsline {subsection}{\numberline {4.0.2}Non-Functional Requirements}{17}{}%
-\contentsline {subsection}{\numberline {4.0.3}IoT Platform Selection}{17}{}%
+\contentsline {subsection}{\numberline {4.0.3}IoT Platform Evaluation and Selection}{17}{}%
 \contentsline {subsubsection}{\nonumberline Knock-Out Criteria}{18}{}%
 \contentsline {subsubsection}{\nonumberline High Importance Criteria}{19}{}%
 \contentsline {subsubsection}{\nonumberline Medium Importance Criteria}{19}{}%
 \contentsline {subsubsection}{\nonumberline Low Importance Criteria}{19}{}%
-\contentsline {subsection}{\numberline {4.0.4}KPI Selection and Justification}{21}{}%
+\contentsline {subsection}{\numberline {4.0.4}Database Selection}{21}{}%
+\contentsline {subsection}{\numberline {4.0.5}KPI Selection and Justification}{21}{}%
 \contentsline {chapter}{\numberline {5}\textbf {Zusammenfassung und Ausblick}}{22}{}%
 \vspace {0.8cm}
 \contentsline {chapter}{Quellenverzeichnis}{24}{}%

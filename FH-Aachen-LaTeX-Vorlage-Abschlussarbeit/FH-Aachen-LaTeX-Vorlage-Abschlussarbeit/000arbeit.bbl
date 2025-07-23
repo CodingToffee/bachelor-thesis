@@ -1,10 +1,40 @@
 \begin{thebibliography}{}
 
+\bibitem[Nod, ]{Noderedcontribinfluxdb}
+Node-red-contrib-influxdb.
+\newblock http://flows.nodered.org/node/node-red-contrib-influxdb.
+
+\bibitem[Que, ]{QueryDataGet}
+Query data {\textbar} {{Get}} started with {{InfluxDB}} 3 {{Core}} {\textbar}
+  {{InfluxDB}} 3 {{Core Documentation}}.
+\newblock
+  https://docs.influxdata.com/influxdb3/core/get-started/query/\#Copyright.
+
+\bibitem[Run, ]{RunningNodeREDLocally}
+Running {{Node-RED}} locally : {{Node-RED}}.
+\newblock https://nodered.org/docs/getting-started/local.
+
+\bibitem[UMH, ]{UMHInstallationRequirements}
+{{UMH}} installation requirements.
+\newblock https://umh.docs.umh.app/docs/getstarted/installation/.
+
 \bibitem[Wha, ]{WhatIoTInternet}
 What is {{IoT}} ({{Internet}} of {{Things}})? {\textbar} {{Definition}} from
   {{TechTarget}}.
 \newblock
   https://www.techtarget.com/iotagenda/definition/Internet-of-Things-IoT.
+
+\bibitem[Wri, ]{WriteDataInfluxDB}
+Write data to {{InfluxDB}} 3 {{Core}} {\textbar} {{InfluxDB}} 3 {{Core
+  Documentation}}.
+\newblock
+  https://docs.influxdata.com/influxdb3/core/write-data/\#line-protocol-elements.
+
+\bibitem[Nod, 2020]{NodeRedMinimun2020}
+ (2020).
+\newblock Node red minimun configuration - {{Hardware}}.
+\newblock
+  https://discourse.nodered.org/t/node-red-minimun-configuration/31416/2.
 
 \bibitem[Alauddin, 2018]{alauddinProcessImprovementSewing2018}
 Alauddin, M. (2018).
@@ -42,6 +72,11 @@ Kang, N., Zhao, C., Li, J., and Horst, J.~A. (2016).
 Kiron, M.~I. (2022).
 \newblock {{KPI}} ({{Key Performance Indicator}}) in {{Garment Industry}}.
 
+\bibitem[Ltd, ]{ltdBuyRaspberryPi}
+Ltd, R.~P.
+\newblock Buy a {{Raspberry Pi}} 2 {{Model B}}.
+\newblock https://www.raspberrypi.com/products/raspberry-pi-2-model-b/.
+
 \bibitem[Neely et~al., 1995]{neelyPerformanceMeasurementSystem1995}
 Neely, A., Gregory, M., and Platts, K. (1995).
 \newblock Performance measurement system design: {{A}} literature review
@@ -73,6 +108,11 @@ Tambare, P., Meshram, C., Lee, C.-C., Ramteke, R.~J., and Imoize, A.~L. (2022).
 \newblock Performance {{Measurement System}} and {{Quality Management}} in
   {{Data-Driven Industry}} 4.0: {{A Review}}.
 \newblock {\em Sensors}, 22(1):224.
+
+\bibitem[{thingsboard}, ]{thingsboardInstallingThingsBoardCE}
+{thingsboard}.
+\newblock Installing {{ThingsBoard CE}} on {{Ubuntu Server}}.
+\newblock https://thingsboard.io/docs/user-guide/install/ubuntu/.
 
 \bibitem[Turki et~al., 2024]{turkiEvaluatingOpenSource2024}
 Turki, M., Boussaidi, G.~E., Benzarti, I., and Mili, H. (2024).
