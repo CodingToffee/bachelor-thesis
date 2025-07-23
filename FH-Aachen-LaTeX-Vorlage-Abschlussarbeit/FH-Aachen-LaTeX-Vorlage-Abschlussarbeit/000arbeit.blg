@@ -12,6 +12,11 @@ The style file: apalike.bst
 A level-1 auxiliary file: ./doc/202abkuerzungsverzeichnis.aux
 Database file #1: ./bib/quellen.bib
 Warning--I didn't find a database entry for "ashtonThatInternetThings"
+Warning--I didn't find a database entry for "UMHInstallationRequirements"
+Warning--I didn't find a database entry for "thingsboardInstallingThingsBoardCE"
+Warning--I didn't find a database entry for "RunningNodeREDLocally"
+Warning--I didn't find a database entry for "NodeRedMinimun2020"
+Warning--I didn't find a database entry for "ltdBuyRaspberryPi"
 Warning--I didn't find a database entry for "Segmentation"
 Warning--I didn't find a database entry for "ImageAttack"
 Warning--to sort, need author or key in WhatIoTInternet
@@ -20,45 +25,45 @@ Warning--empty journal in alauddinProcessImprovementSewing2018
 Warning--empty year in roseInternetThingsOverview
 Warning--empty journal in roseInternetThingsOverview
 Warning--empty journal in youngIndustrialInternetReference2022
-You've used 15 entries,
+You've used 16 entries,
             1935 wiz_defined-function locations,
-            586 strings with 8059 characters,
-and the built_in function-call counts, 6339 in all, are:
-= -- 620
-> -- 265
-< -- 10
-+ -- 95
-- -- 89
-* -- 507
-:= -- 1064
-add.period$ -- 41
-call.type$ -- 15
-change.case$ -- 116
-chr.to.int$ -- 15
-cite$ -- 22
-duplicate$ -- 264
-empty$ -- 439
-format.name$ -- 105
-if$ -- 1271
+            602 strings with 8584 characters,
+and the built_in function-call counts, 6785 in all, are:
+= -- 666
+> -- 278
+< -- 12
++ -- 99
+- -- 93
+* -- 538
+:= -- 1133
+add.period$ -- 44
+call.type$ -- 16
+change.case$ -- 123
+chr.to.int$ -- 16
+cite$ -- 23
+duplicate$ -- 287
+empty$ -- 475
+format.name$ -- 112
+if$ -- 1368
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 12
-newline$ -- 73
-num.names$ -- 44
-pop$ -- 129
+missing$ -- 13
+newline$ -- 78
+num.names$ -- 47
+pop$ -- 139
 preamble$ -- 1
-purify$ -- 117
+purify$ -- 124
 quote$ -- 0
-skip$ -- 205
+skip$ -- 221
 stack$ -- 0
-substring$ -- 429
-swap$ -- 57
-text.length$ -- 5
+substring$ -- 457
+swap$ -- 63
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 90
+type$ -- 96
 warning$ -- 6
-while$ -- 50
+while$ -- 55
 width$ -- 0
-write$ -- 182
-(There were 9 warnings)
+write$ -- 195
+(There were 14 warnings)
