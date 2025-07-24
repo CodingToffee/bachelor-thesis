@@ -128,7 +128,11 @@ The selection of a suitable DBMS was imperative for the storage of the data. In 
 
 Subsequently, the capacity of InfluxDB to process boolean values was ascertained. This assertion was corroborated in the documentation \cite{WriteDataInfluxDB}. In addition, an assessment was conducted to ascertain whether InfluxDB is compatible with Node-RED. The package that was found (node-red-contrib-influxdb 0.7.0) has been determined to only support InfluxDB 1.x and 2.0 \cite{Noderedcontribinfluxdb}. Prior to this, it was determined that InfluxDB 3 Core's capacity for querying data is confined to a span of merely 72 hours \cite{QueryDataGet}, a limitation that was deemed inadequate in view of the necessity to compute historical KPIs. Consequently, InfluxdDB v2 was selected due to its compatibility with Node-RED and its capacity to support unlimited querying windows.
 
+\subsection{Dashboarding Tool Selection}
+Initially, the objective was to leverage the dashboarding capabilities of the selected IoT Platform Node-RED.
+However, it appears that the utilization of this particular node-RED feature for visualization purposes is not a prevalent practice. In contrast, another software program, Grafana, was utilized in a significant number of cases similar to the one under consideration in this study. Consequently, the decision was made to utilize Grafana for the development of dashboards, with the objective of facilitating the visualization of the KPIs. This approach was adopted to enhance the probability that other colleagues would be acquainted with the solution, thereby facilitating a more streamlined handover process. The decision was further corroborated by Rani in his work \cite{raniToolsTechniquesRealtime2025}, who states that it is highly appropriate for time series visualization and monitoring. Additionally, the integration of the system with various databases, including InfluxDB, is emphasized.
 
+\
 
 \subsection{KPI Selection and Justification}
  Of which the following were able to be calculated with the given metrics.
