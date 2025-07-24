@@ -32,15 +32,17 @@
 \contentsline {subsubsection}{\nonumberline Medium Importance Criteria}{19}{}%
 \contentsline {subsubsection}{\nonumberline Low Importance Criteria}{19}{}%
 \contentsline {subsection}{\numberline {4.0.4}Database Selection}{21}{}%
-\contentsline {subsection}{\numberline {4.0.5}KPI Selection and Justification}{21}{}%
-\contentsline {chapter}{\numberline {5}\textbf {Zusammenfassung und Ausblick}}{22}{}%
+\contentsline {subsection}{\numberline {4.0.5}Dashboarding Tool Selection}{21}{}%
+\contentsline {subsection}{\numberline {4.0.6}System Architecture}{22}{}%
+\contentsline {subsection}{\numberline {4.0.7}KPI Selection and Justification}{22}{}%
+\contentsline {chapter}{\numberline {5}\textbf {Zusammenfassung und Ausblick}}{23}{}%
 \vspace {0.8cm}
-\contentsline {chapter}{Quellenverzeichnis}{24}{}%
-\contentsline {chapter}{Abkürzungsverzeichnis}{25}{}%
-\contentsline {chapter}{Abbildungsverzeichnis}{26}{}%
-\contentsline {chapter}{Tabellenverzeichnis}{27}{}%
+\contentsline {chapter}{Quellenverzeichnis}{25}{}%
+\contentsline {chapter}{Abkürzungsverzeichnis}{26}{}%
+\contentsline {chapter}{Abbildungsverzeichnis}{27}{}%
+\contentsline {chapter}{Tabellenverzeichnis}{28}{}%
 \vspace {0.8cm}
-\contentsline {chapter}{Anhang}{27}{}%
-\contentsline {chapter}{\numberline {A}Quellcode}{28}{}%
-\contentsline {chapter}{\numberline {B}Rohdatenvisualisierungen}{29}{}%
+\contentsline {chapter}{Anhang}{28}{}%
+\contentsline {chapter}{\numberline {A}Quellcode}{29}{}%
+\contentsline {chapter}{\numberline {B}Rohdatenvisualisierungen}{30}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

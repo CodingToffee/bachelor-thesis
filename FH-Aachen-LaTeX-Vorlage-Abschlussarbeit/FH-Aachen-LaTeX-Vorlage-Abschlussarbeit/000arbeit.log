@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.3)  23 JUL 2025 18:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.3)  24 JUL 2025 17:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -725,6 +725,9 @@ File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 
 LaTeX Warning: Label `grundlagen' multiply defined.
 
+
+LaTeX Warning: Label `fig:Model-Component-Pattern' multiply defined.
+
 ) (doc/111Schluss.aux) (doc/202abkuerzungsverzeichnis.aux))
 \openout1 = `000arbeit.aux'.
 
@@ -1192,21 +1195,33 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
 21.
  (C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-))
-Underfull \hbox (badness 10000) in paragraph at lines 134--151
+)
+
+LaTeX Warning: Citation `raniToolsTechniquesRealtime2025' on page 21 undefined 
+on input line 133.
+
+<pic/system_overview.png, id=80, 934.49126pt x 262.9825pt>
+File: pic/system_overview.png Graphic file (type png)
+<use pic/system_overview.png>
+Package pdftex.def Info: pic/system_overview.png  used on input line 138.
+(pdftex.def)             Requested size: 426.79135pt x 120.10664pt.
+
+
+[21])
+Underfull \hbox (badness 10000) in paragraph at lines 146--151
 
  []
 
 
 
-[21]
+[22 <./pic/system_overview.png>]
 \openout2 = `./doc/111Schluss.aux'.
 
  (doc/111Schluss.tex
 chapter 5.
 )
 
-[22
+[23
 
 
 
@@ -1252,7 +1267,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--79
 
 
 
-[23
+[24
 
 
 
@@ -1265,12 +1280,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--116
 
 )
 
-[24]
+[25]
 \openout2 = `./doc/202abkuerzungsverzeichnis.aux'.
 
  (doc/202abkuerzungsverzeichnis.tex)
 
-[25
+[26
 
 
 
@@ -1281,7 +1296,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--116
 
 
 
-[26
+[27
 
 
 
@@ -1292,20 +1307,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--116
 
 
 
-[27
+[28
 
 
 ]
 chapter A.
 
 
-[28
+[29
 
 ]
 chapter B.
 
 
-[29
+[30
 
 ] (000arbeit.aux (doc/001titelblatt.aux) (doc/002erklaerung.aux)
 (doc/101Introduction.aux) (doc/102Foundations.aux) (doc/102RelatedWork.aux)
@@ -1328,10 +1343,10 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 95 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16945 strings out of 468220
- 342421 string characters out of 5432871
- 917777 words of memory out of 5000000
- 45128 multiletter control sequences out of 15000+600000
+ 16953 strings out of 468220
+ 342637 string characters out of 5432871
+ 917828 words of memory out of 5000000
+ 45136 multiletter control sequences out of 15000+600000
  646065 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,20n,107p,10956b,821s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1345,9 +1360,9 @@ ata/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/nicol/A
 ppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/nicol/A
 ppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/nicol/A
 ppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 000arbeit.pdf (29 pages, 368468 bytes).
+Output written on 000arbeit.pdf (30 pages, 389515 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
+ 153 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
