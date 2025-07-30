@@ -1,0 +1,27 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "PP & BA/source-notes",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "jpg",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [
+    {
+      "name": "Format #1",
+      "format": "formatted-citation",
+      "cslStyle": "ieee"
+    }
+  ],
+  "exportFormats": [
+    {
+      "name": "source-notes",
+      "outputPathTemplate": "PP & BA/source-notes/{{citekey}}.md",
+      "imageOutputPathTemplate": "source-notes/{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "PP & BA/templates/source-notes.md",
+      "cslStyle": "ieee"
+    }
+  ],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": true,
+  "whichNotesToOpenAfterImport": "first-imported-note"
+}

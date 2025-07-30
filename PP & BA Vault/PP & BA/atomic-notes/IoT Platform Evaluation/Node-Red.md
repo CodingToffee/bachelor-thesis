@@ -1,0 +1,45 @@
+---
+tags:
+  - Evaluation
+  - IoT-Platform
+---
+# Criteria
+- Availability of Documentation
+	- yes [Documentation : Node-RED](https://nodered.org/docs/)
+- Cloud independence
+	- yes [Running Node-RED locally : Node-RED](https://nodered.org/docs/getting-started/local#:~:text=Once%20installed%20as%20a%20global%20module%20you%20can,Node-RED%20editor%20by%20pointing%20your%20browser%20at%20http%3A%2F%2Flocalhost%3A1880.)
+- Operating Costs
+	- 
+- Dashboarding Capabilities
+	-  yes [node-red-dashboard (node) - Node-RED](https://flows.nodered.org/node/node-red-dashboard)
+- Tutorials
+	- yes [Tutorials : Node-RED](https://nodered.org/docs/tutorials/)
+- Actively Maintained
+	- yes [Release Plan : Node-RED](https://nodered.org/about/releases/)
+- Encryption of Databases
+	- not inherently
+- Backup of Databases
+	- not inherently
+- Scalability to up to 10 devices
+	- yes 
+- Scalability - message troughput
+- supports protocols: HTTP, MQTT, CoAP, AMQP
+	- supports all these protocols
+	- [Node-RED - MQTT Node • FlowFuse](https://flowfuse.com/node-red/core-nodes/mqtt/)
+	- [HTTP recipes : Node-RED](https://cookbook.nodered.org/http/)
+	- [node-red-contrib-coap (node) - Node-RED](https://flows.nodered.org/node/node-red-contrib-coap)
+	- [Using AMQP with Node-RED • FlowFuse](https://flowfuse.com/node-red/protocol/amqp/
+- OPC-UA capability
+	- yes [node-red-contrib-opcua (node) - Node-RED](https://flows.nodered.org/node/node-red-contrib-opcua)
+- Fault detection
+	- not inherently but can be built with custom flows [Node-RED Health Monitoring - General - Node-RED Forum](https://discourse.nodered.org/t/node-red-health-monitoring/11413)
+- Heartbeat monitor
+	- yes [node-red-contrib-device-monitor (node) - Node-RED](https://flows.nodered.org/node/node-red-contrib-device-monitor)
+- Completion of Server SW
+	- yes, docker images available [Running under Docker : Node-RED](https://nodered.org/docs/getting-started/docker)
+- Development of Server SW
+	- yes, development through flows
+- Examples for Server-side implementation
+	- yes [GitHub - rozek/node-red-web-server-examples: examples for basic web servers built with Node-RED](https://github.com/rozek/node-red-web-server-examples)
+- Ability to process raw data and derive KPI's from it
+	- yes [node-red-contrib-timeseries (node) - Node-RED](https://flows.nodered.org/node/node-red-contrib-timeseries)

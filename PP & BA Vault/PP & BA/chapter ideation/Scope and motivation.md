@@ -1,0 +1,3 @@
+- solution shall be used as a showcase to show what is possible with the machine at hand -> therefore kpi's don't nesseceraly need to fit exactly to performance measurement
+- no additional sensors shall be used
+- 

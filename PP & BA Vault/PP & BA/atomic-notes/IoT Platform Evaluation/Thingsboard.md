@@ -1,0 +1,46 @@
+---
+tags: IoT-Platform
+---
+
+# Criteria
+- Availability of documentation:
+	- yes
+- Encryption of communication
+	- yes over 128rsa or sha256 [OPC-UA Connector Configuration | ThingsBoard IoT Gateway](https://thingsboard.io/docs/iot-gateway/config/opc-ua/?utm_source=chatgpt.com)
+- Cloud independence
+	- on premise [Installing ThingsBoard CE on Ubuntu Server | ThingsBoard Community Edition](https://thingsboard.io/docs/user-guide/install/ubuntu/?utm_source=chatgpt.com)
+- Operating Costs
+- Dashboarding Capabilities
+	- yes [Working with IoT dashboards | ThingsBoard Community Edition](https://thingsboard.io/docs/user-guide/dashboards/)
+- Tutorials
+	- getting started guide [Getting Started with ThingsBoard | ThingsBoard Community Edition](https://thingsboard.io/docs/getting-started-guides/helloworld/?utm_source=chatgpt.com)
+	- youtube channel [Learn ThingsBoard in 10 Minutes](https://www.youtube.com/watch?v=GzBy2ke8wwc&utm_source=chatgpt.com&themeRefresh=1)
+- Actively Maintained
+	- yes, commits every few days, releases every 2-3 months [Releases · thingsboard/thingsboard](https://github.com/thingsboard/thingsboard/releases) [Commits · thingsboard/thingsboard · GitHub](https://github.com/thingsboard/thingsboard/commits/master)
+- supports protocols: HTTP, MQTT, CoAP, AMQP
+	- HTTP, MQTT, CoAP [Connectivity diagram | ThingsBoard Community Edition](https://thingsboard.io/docs/getting-started-guides/connectivity/)
+- Encryption of Databases
+	- not inherently but supports a few databases which can be encrypted
+- Backup of Databases
+	- not inherently, but there are community solutions
+- Scalability to up to 10 devices
+	- easy, 20.000+ devices possible [ThingsBoard Data Collection Performance | ThingsBoard Community Edition](https://thingsboard.io/docs/reference/performance/?utm_source=chatgpt.com)
+- Scalability - message troughput
+	- 30.000+ mqtt publish messages per second [ThingsBoard Data Collection Performance | ThingsBoard Community Edition](https://thingsboard.io/docs/reference/performance/?utm_source=chatgpt.com)
+- OPC-UA capability
+	- not inherently [OPC-UA Connector Configuration | ThingsBoard IoT Gateway](https://thingsboard.io/docs/iot-gateway/config/opc-ua/?utm_source=chatgpt.com)
+- Fault detection
+	- yes [Working with alarms | ThingsBoard Community Edition](https://thingsboard.io/docs/user-guide/alarms/?utm_source=chatgpt.com)
+- Heartbeat monitor
+	- yes [Device Connectivity Status | ThingsBoard Community Edition](https://thingsboard.io/docs/user-guide/device-connectivity-status/?utm_source=chatgpt.com)
+- Completion of Server SW
+	- yes, docker images are provided [Installing ThingsBoard using Docker (Linux or Mac OS) | ThingsBoard Community Edition](https://thingsboard.io/docs/user-guide/install/docker/)
+- Development of Server SW
+	- rule engine and sdk are provided [Rule Engine Overview | ThingsBoard Professional Edition](https://thingsboard.io/docs/pe/user-guide/rule-engine-2-0/overview/?utm_source=chatgpt.com)
+- Examples for Server-side implementation
+	- examples for rule engine [Getting Started with Rule Engine | ThingsBoard Community Edition](https://thingsboard.io/docs/user-guide/rule-engine-2-0/re-getting-started/?utm_source=chatgpt.com)
+	- examples for data processing [IoT data analytics using Kafka, Kafka Streams and ThingsBoard | ThingsBoard Community Edition](https://thingsboard.io/docs/samples/analytics/kafka-streams/?utm_source=chatgpt.com)
+	- examples for kepware from community [Help with OPC-UA Connector with IoT Gateway · Issue #9594 · thingsboard/thingsboard](https://github.com/thingsboard/thingsboard/issues/9594)
+- Ability to process raw data and derive KPI's from it
+	- simple processing possible 
+	- [Working with telemetry data | ThingsBoard Community Edition](https://thingsboard.io/docs/user-guide/telemetry/?utm_source=chatgpt.com)

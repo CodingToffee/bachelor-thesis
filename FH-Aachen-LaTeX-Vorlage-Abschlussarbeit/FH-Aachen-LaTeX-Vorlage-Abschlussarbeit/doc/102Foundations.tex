@@ -1,6 +1,22 @@
 \clearpage
 \chapter{\textbf{Foundations}}\label{grundlagen}
 %\addtocontents{toc}{\vspace{0.8cm}}
+\section{Setting}
+The sewing machine in question is a Brother UF-8910.It is part of a textile production line in which a wristband is being produced. The wristband contains an RFID chip capable of storing diverse information. For instance, the technology could be utilized to store a personnel identification number. In the event that the technology is scanned at a workplace, the workplace's dimensions would adapt to conform to the worker's size. The production line has not been designed for implementation in actual industrial-scale manufacturing; rather, it functions as a model environment for workshop purposes. The sewing machine is utilized during the final stage of the wristband assembly process. The utilization of the machine is characterized by a straightforward procedural nature. The objective is to sew both ends of the open wristband together with a single seam to close it. The following figure illustrates this procedure.\\
+\textbf{figure}
+\\
+
+The signals that can be extracted from the sewing machine encompass:
+\begin{itemize}
+	\item Second walking foot stroke: Two walking foot strokes can be set for different thikness of materials. This signal indicates if the walking foot is currently in the second stroke hight.
+	\item Thread trimming: Indicates when the thread is trimmed
+	\item Pressure foot: Indicates if the pressure foot is lifted
+	\item Upper shaft rotating: Indicates if the machine is actively sewing
+	\item Other than home screen: Indicates that the menu screen is currently not in the home screen
+	\item Home screen and not sewing: Indicates that the menu screen is in the home screen and the machine is not actively sewing
+\end{itemize}
+The subsequent figure illustrates the various components of the sewing machine, thereby facilitating a more profound comprehension of the signals.\\
+\textbf{figure}
 \section{Definitions}
 \subsection{Takt Time}
 Maximum time allowed to produce one product in order to meet customer demand

@@ -1,0 +1,37 @@
+---
+tags:
+  - IoT-Platform
+---
+# Criteria
+- Availability of Documentation
+	- limited documentation [Eclipse Kapua™ | projects.eclipse.org](https://projects.eclipse.org/projects/iot.kapua)
+- Encryption of Data Traffic
+	- 
+- Cloud independence
+	- yes [Eclipse Kapua | projects.eclipse.org](https://projects.eclipse.org/proposals/eclipse-kapua)
+- Operating Costs
+	- 
+- Dashboarding Capabilities
+	- limited capabilities https://projects.eclipse.org/projects/iot.kapua
+- Tutorials
+	- just a few
+- Actively Maintained
+	- yes, releases every few months https://github.com/eclipse-kapua/kapua/releases
+- Encryption of Databases
+	- not inherently
+- Backup of Databases
+	- not inherently 
+- Scalability to up to 10 devices
+	- yes 
+- Scalability - message troughput
+	- 
+- supports protocols: HTTP, MQTT, CoAP, AMQP
+	- MQTT yes 
+- OPC-UA capability
+	- nowhere mentioned
+- Fault detection
+- Heartbeat monitor
+- Completion of Server SW
+- Development of Server SW
+- Examples for Server-side implementation
+- Ability to process raw data and derive KPI's from it

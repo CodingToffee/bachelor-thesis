@@ -1,0 +1,45 @@
+---
+tags:
+  - IoT-Platform
+---
+# Criteria
+- Availability of Documentation
+	- yes https://iot-platform-docs.readthedocs.io/en/latest/
+- Encryption of Data Traffic
+	- yes https://www.mdpi.com/1424-8220/21/17/5898
+- Cloud independence
+	- yes, docker containers available https://hub.docker.com/u/fiware
+- Ability to process raw data and derive KPI's from it
+	- yes through the perseo integration https://fiware-perseo-fe.readthedocs.io/en/latest/
+- OPC-UA capability
+	- yes https://www.fiware.org/2024/02/28/iot-agent-opc-ua/
+- Scalability to up to 10 devices
+	- designed for smart cities so yes
+- Operating Costs
+	- 
+- Dashboarding Capabilities
+	- yes through wirecloud https://github.com/Fiware/catalogue/tree/master/processing
+- Tutorials
+	- yes https://fiware-tutorials.readthedocs.io/en/1.0.0/index.html
+- Actively Maintained
+	- yes
+- Encryption of Databases
+	- standard
+- Backup of Databases
+	- standard
+- Scalability - message troughput
+	- 
+- supports protocols: HTTP, MQTT, CoAP, AMQP
+	- http, mqtt
+- Fault detection
+	- no
+- Heartbeat monitor
+	- no
+- Completion of Server SW
+	- yes https://hub.docker.com/u/fiware
+- Development of Server SW
+	- perseo has rule engine https://fiware-perseo-fe.readthedocs.io/en/latest/
+	- fiware sdk https://github.com/telefonicaid/fiware-SDK
+- Examples for Server-side implementation
+	- yes https://github.com/FIWARE/tutorials.Step-by-Step
+- 

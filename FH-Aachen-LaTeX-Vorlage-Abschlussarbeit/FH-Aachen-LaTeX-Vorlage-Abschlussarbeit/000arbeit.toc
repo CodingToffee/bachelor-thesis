@@ -1,48 +1,49 @@
 \babel@toc {USenglish}{}\relax 
 \linespread {1}
-\contentsline {chapter}{\numberline {1}\textbf {Introduction}}{4}{}%
-\contentsline {chapter}{\numberline {2}\textbf {Foundations}}{6}{}%
-\contentsline {section}{\numberline {2.1}Definitions}{6}{}%
-\contentsline {subsection}{\numberline {2.1.1}Takt Time}{6}{}%
-\contentsline {subsection}{\numberline {2.1.2}IoT and IIoT}{6}{}%
-\contentsline {section}{\numberline {2.2}State of the Art}{6}{}%
-\contentsline {subsection}{\numberline {2.2.1}Industrial IoT Architectures and Patterns}{6}{}%
-\contentsline {paragraph}{\nonumberline Architecture Patterns}{6}{}%
-\contentsline {subparagraph}{\nonumberline IoT Component Capability Model Pattern}{7}{}%
-\contentsline {subparagraph}{\nonumberline Three-Tier Architecture Pattern}{7}{}%
-\contentsline {subsection}{\numberline {2.2.2}KPIs and Metrics for Performance Evaluation in Sewing Operations}{8}{}%
-\contentsline {subsection}{\numberline {2.2.3}IoT-Plattforms}{10}{}%
-\contentsline {paragraph}{\nonumberline Connectivity and Device Management}{10}{}%
-\contentsline {paragraph}{\nonumberline Data Storage, Management, Analysis, Visualization}{10}{}%
-\contentsline {paragraph}{\nonumberline Development and Deployment Tools}{10}{}%
-\contentsline {paragraph}{\nonumberline Auditing and Payments}{11}{}%
-\contentsline {paragraph}{\nonumberline Service Management}{11}{}%
-\contentsline {paragraph}{\nonumberline Integration}{11}{}%
-\contentsline {paragraph}{\nonumberline Fog/Edge Computing}{11}{}%
-\contentsline {subsection}{\numberline {2.2.4}Differences between Relational and Timeseries Databases}{11}{}%
-\contentsline {subsection}{\numberline {2.2.5}Dashboarding}{12}{}%
+\contentsline {chapter}{\numberline {1}\textbf {Introduction}}{5}{}%
+\contentsline {chapter}{\numberline {2}\textbf {Foundations}}{7}{}%
+\contentsline {section}{\numberline {2.1}Setting}{7}{}%
+\contentsline {section}{\numberline {2.2}Definitions}{7}{}%
+\contentsline {subsection}{\numberline {2.2.1}Takt Time}{7}{}%
+\contentsline {subsection}{\numberline {2.2.2}IoT and IIoT}{7}{}%
+\contentsline {section}{\numberline {2.3}State of the Art}{8}{}%
+\contentsline {subsection}{\numberline {2.3.1}Industrial IoT Architectures and Patterns}{8}{}%
+\contentsline {paragraph}{\nonumberline Architecture Patterns}{8}{}%
+\contentsline {subparagraph}{\nonumberline IoT Component Capability Model Pattern}{8}{}%
+\contentsline {subparagraph}{\nonumberline Three-Tier Architecture Pattern}{9}{}%
+\contentsline {subsection}{\numberline {2.3.2}KPIs and Metrics for Performance Evaluation in Sewing Operations}{10}{}%
+\contentsline {subsection}{\numberline {2.3.3}IoT-Plattforms}{12}{}%
+\contentsline {paragraph}{\nonumberline Connectivity and Device Management}{12}{}%
+\contentsline {paragraph}{\nonumberline Data Storage, Management, Analysis, Visualization}{12}{}%
+\contentsline {paragraph}{\nonumberline Development and Deployment Tools}{12}{}%
+\contentsline {paragraph}{\nonumberline Auditing and Payments}{13}{}%
+\contentsline {paragraph}{\nonumberline Service Management}{13}{}%
+\contentsline {paragraph}{\nonumberline Integration}{13}{}%
+\contentsline {paragraph}{\nonumberline Fog/Edge Computing}{13}{}%
+\contentsline {subsection}{\numberline {2.3.4}Differences between Relational and Timeseries Databases}{13}{}%
+\contentsline {subsection}{\numberline {2.3.5}Dashboarding}{14}{}%
 \vspace {0.8cm}
-\contentsline {chapter}{\numberline {3}\textbf {Related Work}}{13}{}%
-\contentsline {chapter}{\numberline {4}\textbf {Requirements Analysis}}{16}{}%
-\contentsline {subsection}{\numberline {4.0.1}Functional System Requirements}{16}{}%
-\contentsline {subsection}{\numberline {4.0.2}Non-Functional Requirements}{17}{}%
-\contentsline {subsection}{\numberline {4.0.3}IoT Platform Evaluation and Selection}{17}{}%
-\contentsline {subsubsection}{\nonumberline Knock-Out Criteria}{18}{}%
-\contentsline {subsubsection}{\nonumberline High Importance Criteria}{19}{}%
-\contentsline {subsubsection}{\nonumberline Medium Importance Criteria}{19}{}%
-\contentsline {subsubsection}{\nonumberline Low Importance Criteria}{19}{}%
-\contentsline {subsection}{\numberline {4.0.4}Database Selection}{21}{}%
-\contentsline {subsection}{\numberline {4.0.5}Dashboarding Tool Selection}{21}{}%
-\contentsline {subsection}{\numberline {4.0.6}System Architecture}{22}{}%
-\contentsline {subsection}{\numberline {4.0.7}KPI Selection and Justification}{22}{}%
-\contentsline {chapter}{\numberline {5}\textbf {Zusammenfassung und Ausblick}}{23}{}%
+\contentsline {chapter}{\numberline {3}\textbf {Related Work}}{15}{}%
+\contentsline {chapter}{\numberline {4}\textbf {Requirements Analysis}}{18}{}%
+\contentsline {subsection}{\numberline {4.0.1}Functional System Requirements}{18}{}%
+\contentsline {subsection}{\numberline {4.0.2}Non-Functional Requirements}{19}{}%
+\contentsline {subsection}{\numberline {4.0.3}IoT Platform Evaluation and Selection}{19}{}%
+\contentsline {subsubsection}{\nonumberline Knock-Out Criteria}{20}{}%
+\contentsline {subsubsection}{\nonumberline High Importance Criteria}{21}{}%
+\contentsline {subsubsection}{\nonumberline Medium Importance Criteria}{21}{}%
+\contentsline {subsubsection}{\nonumberline Low Importance Criteria}{21}{}%
+\contentsline {subsection}{\numberline {4.0.4}Database Selection}{23}{}%
+\contentsline {subsection}{\numberline {4.0.5}Dashboarding Tool Selection}{23}{}%
+\contentsline {subsection}{\numberline {4.0.6}System Architecture}{24}{}%
+\contentsline {subsection}{\numberline {4.0.7}KPI Selection and Justification}{24}{}%
+\contentsline {chapter}{\numberline {5}\textbf {Zusammenfassung und Ausblick}}{26}{}%
 \vspace {0.8cm}
-\contentsline {chapter}{Quellenverzeichnis}{25}{}%
-\contentsline {chapter}{Abkürzungsverzeichnis}{26}{}%
-\contentsline {chapter}{Abbildungsverzeichnis}{27}{}%
-\contentsline {chapter}{Tabellenverzeichnis}{28}{}%
+\contentsline {chapter}{Quellenverzeichnis}{28}{}%
+\contentsline {chapter}{Abkürzungsverzeichnis}{29}{}%
+\contentsline {chapter}{Abbildungsverzeichnis}{30}{}%
+\contentsline {chapter}{Tabellenverzeichnis}{31}{}%
 \vspace {0.8cm}
-\contentsline {chapter}{Anhang}{28}{}%
-\contentsline {chapter}{\numberline {A}Quellcode}{29}{}%
-\contentsline {chapter}{\numberline {B}Rohdatenvisualisierungen}{30}{}%
+\contentsline {chapter}{Anhang}{31}{}%
+\contentsline {chapter}{\numberline {A}Quellcode}{32}{}%
+\contentsline {chapter}{\numberline {B}Rohdatenvisualisierungen}{33}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

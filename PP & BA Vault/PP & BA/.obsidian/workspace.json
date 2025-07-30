@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "773189e652bfce81",
+    "type": "split",
+    "children": [
+      {
+        "id": "7139e3eb7b904cf3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79d9da93f5c27d69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "source-notes/Database Evaluation/john2023.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "john2023"
+            }
+          },
+          {
+            "id": "dd9c27c96ccb5676",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "source-notes/Database Evaluation/tripathi2023.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "tripathi2023"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "94bd0a31206506df",
+    "type": "split",
+    "children": [
+      {
+        "id": "63821a477c437b0b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ffa4adfca6863ef",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "24ae7bf830b16b29",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fe1cdc114037fd63",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "de9d3002bc891c3d",
+    "type": "split",
+    "children": [
+      {
+        "id": "0631cf4efc144e7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c75195c2cd598f33",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "atomic-notes/Thingsboard.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Thingsboard"
+            }
+          },
+          {
+            "id": "c9c1059b1848eaa5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "source-notes/alexakos2019.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from alexakos2019"
+            }
+          },
+          {
+            "id": "b217a09a5e77c19d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7a7bf07d862690fd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "source-notes/Database Evaluation/tripathi2023.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of tripathi2023"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "dd9c27c96ccb5676",
+  "lastOpenFiles": [
+    "source-notes/Database Evaluation/john2023.md",
+    "source-notes/Database Evaluation/tripathi2023.md",
+    "source-notes/Condition Monitoring Techniques/shamsuzzamanManagementMaintenanceTextile2023.md",
+    "source-notes/Database Evaluation",
+    "atomic-notes/Databases",
+    "source-notes/Condition Monitoring Techniques/atta2021.md",
+    "source-notes/Condition Monitoring Techniques/MAINTENANCEPLANNINGSEWING.md",
+    "source-notes/Condition Monitoring Techniques/darius.md",
+    "source-notes/Platform Evaluation/gustin2022/image-2-x307-y66.png",
+    "source-notes/Condition Monitoring Techniques",
+    "source-notes/KPIs/herrera-barreda2024/image-5-x128-y474.png",
+    "source-notes/Platform Evaluation/ismail2018/image-undefined-x312-y406.png",
+    "source-notes/Platform Evaluation/ismail2018.md",
+    "source-notes/Platform Evaluation/gustin2022.md",
+    "source-notes/Platform Evaluation/alexakos2019.md",
+    "source-notes/Platform Evaluation",
+    "source-notes/Platform Evaluation/turki2024.md",
+    "source-notes/dominguez-bolanoOverviewIoTArchitectures2022.md",
+    "source-notes/KPIs/almamun2024.md",
+    "source-notes/KPIs/herrera-barreda2024.md",
+    "source-notes/KPIs",
+    "source-notes/KPIs/herrera-barreda2024/image-5-x228-y332.png",
+    "source-notes/KPIs/herrera-barreda2024/image-5-x208-y273.png",
+    "source-notes/KPIs/herrera-barreda2024/image-5-x190-y400.png",
+    "source-notes/KPIs/herrera-barreda2024/image-5-x168-y547.png",
+    "source-notes/KPIs/herrera-barreda2024",
+    "atomic-notes/IoT Platform Evaluation/Evaluation of IoT Platforms - Methodics.md",
+    "Untitled.md",
+    "atomic-notes/IoT Platform Evaluation",
+    "atomic-notes/IoT Platform Evaluation/UMH.md",
+    "atomic-notes/IoT Platform Evaluation/Open Source IoT Platforms.md",
+    "atomic-notes/IoT Platform Evaluation/Node-Red.md",
+    "atomic-notes/IoT Platform Evaluation/LLM search-query for evaluation of IoT Platforms.md",
+    "atomic-notes/IoT Platform Evaluation/openMTC.md",
+    "templates/IoT Platform evaluation template.md",
+    "atomic-notes/IoT Platform Evaluation/Thingsboard.md",
+    "atomic-notes/IoT Platform Evaluation/openRemote.md",
+    "atomic-notes/IoT Platform Evaluation/Mainflux.md",
+    "atomic-notes/IoT Platform Evaluation/FIWARE.md",
+    "atomic-notes/IoT Platform Evaluation/Kapua.md",
+    "source-notes/Platform Evaluation/turki2024/image-7-x71-y455.png",
+    "source-notes/Platform Evaluation/turki2024",
+    "Untitled",
+    "source-notes/gustin2022/desktop.ini",
+    "Untitled.canvas",
+    "templates/Untitled.canvas"
+  ]
+}

@@ -1,0 +1,31 @@
+---
+tags:
+  - IoT-Platform
+---
+# Criteria
+- Availability of Documentation
+	- yes https://docs.openremote.io/docs
+- Cloud independence
+	- yes https://openremote.io/product/
+- Ability to process raw data and derive KPI's from it
+	- yes https://docs.openremote.io/docs/user-guide/rules-and-forecasting/groovy-rules/
+- OPC-UA capability
+	- no
+- Dashboarding Capabilities
+	- yes https://docs.openremote.io/docs/developer-guide/adding-widgets-on-insights/
+- supports protocols: HTTP, MQTT, CoAP, AMQP
+	- HTTP, MQTT https://docs.openremote.io/docs/category/agentsprotocols
+- Tutorials
+	- yes https://docs.openremote.io/docs/category/tutorials/
+- Actively Maintained
+	- yes, releases every few days https://github.com/openremote/openremote/releases
+- Fault detection
+	- no
+- Heartbeat monitor
+	- no
+- Completion of Server SW
+	- yes, docker images provided https://docs.openremote.io/docs/developer-guide/installing-and-using-docker/
+- Development of Server SW
+	- rule engine yes https://docs.openremote.io/docs/user-guide/rules-and-forecasting/create-rules
+- Examples for Server-side implementation
+	- yes https://github.com/openremote/openremote

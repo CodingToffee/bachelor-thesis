@@ -1,0 +1,43 @@
+---
+tags:
+  - IoT-Platform
+---
+# Criteria
+- Availability of Documentation
+	- yes [Welcome | balena](https://docs.balena.io/learn/welcome/introduction/)
+- Encryption of Data Traffic
+	- yes [balena - security whitepaper](https://cdn.prod.website-files.com/636ab6ba0e1bd250e3aaedaf/67573fbc8b4e2c6793bf645f_balena%20-%20security%20whitepaper.pdf)
+- Cloud independence
+	- yes [Going to production | balena](https://docs.balena.io/learn/welcome/production-plan/) see local build
+- Operating Costs
+	- 
+- Dashboarding Capabilities
+	- not inherently [Open-Balena dashboard project - openBalena - balenaForums](https://forums.balena.io/t/open-balena-dashboard-project/221998?utm_source=chatgpt.com)
+- Tutorials
+	-  yes [Setting up openBalena on a VPS - YouTube](https://www.youtube.com/watch?v=3eVwLxfh3k8)
+	- [openBalena Getting Started Guide | Open Balena](https://open-balena.pages.dev/getting-started/?utm_source=chatgpt.com)
+- Actively Maintained
+	- yes, releases every few days [Releases · balena-io/open-balena](https://github.com/balena-io/open-balena/releases)
+	- commits every day [Commits · balena-io/open-balena · GitHub](https://github.com/balena-io/open-balena/commits)
+- Encryption of Databases
+	- not inherently, but through postgresql [PostgreSQL: Documentation: 17: 18.8. Encryption Options](https://www.postgresql.org/docs/current/encryption-options.html)
+- Backup of Databases
+	- not inherently, but through postgresql [PostgreSQL: Documentation: 17: Chapter 25. Backup and Restore](https://www.postgresql.org/docs/current/backup.html)
+- Scalability to up to 10 devices
+	- 1 to 1 Mio [Open-source software to manage connected IoT devices](https://www.balena.io/open)
+- Scalability - message troughput
+	- no information found
+- OPC-UA capability
+	- not inherently supported, 3rd party client software needs to be installed on the device [Deploying N3uron and Balena for Future-ready Power Plants](https://n3uron.com/deploying-balena-and-n3uron-for-future-ready-power-plants/?utm_source=chatgpt.com)  
+- Fault detection
+	- yes [Deploying N3uron and Balena for Future-ready Power Plants](https://n3uron.com/deploying-balena-and-n3uron-for-future-ready-power-plants/?utm_source=chatgpt.com)
+- Heartbeat monitor
+	- yes connectivity status can be monitored [Device and Update statuses | balena](https://docs.balena.io/learn/manage/device-statuses/)
+- Completion of Server SW
+	- yes, docker images provided [openBalena Getting Started Guide | Open Balena](https://open-balena-docs.balena.io/getting-started/)
+- Development of Server SW
+	- provides sdk but no rule engine [balena Python SDK Documentation | balena](https://docs.balena.io/reference/sdk/python-sdk/latest/)
+- Examples for Server-side implementation
+	- yes a little bit [openBalena Getting Started Guide | Open Balena](https://open-balena.pages.dev/getting-started/)
+- Ability to process raw data and derive KPI's from it
+	- not mentioned in the documentation, needs to be implemented seperately.

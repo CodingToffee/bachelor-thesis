@@ -1,0 +1,10 @@
+- custom context and prompt
+- use it for brainstorming
+- use it to refine headings and titles
+	- e.g. write the heading suitable for an academic audience
+- use it to understand topics and make definitions
+	- custom project with custom prompt
+- Style of writing: reformulate sentences and get tips on how to write better
+	- Writing blockage: write down whatever goes through your head and let LLM reformulate it
+- let it create a writing plan
+- 
