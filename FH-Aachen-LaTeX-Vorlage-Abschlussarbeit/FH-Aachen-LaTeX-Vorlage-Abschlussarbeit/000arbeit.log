@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.3)  25 JUL 2025 16:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.30)  31 JUL 2025 14:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./000arbeit.tex
 (000arbeit.tex
 LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-06-09>
+L3 programming layer <2025-07-19>
 
 (C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrreprt.cl
 s
@@ -166,23 +166,23 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@posthook=\toks19
 )
 (C:\Users\nicol\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2025/05/14 v25.9 The multilingual framework for pdfLaTeX, LuaLaT
-eX and XeLaTeX
+Package: babel 2025/07/13 v25.11 The multilingual framework for LuaLaTeX, pdfLa
+TeX and XeLaTeX
 \babel@savecnt=\count285
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2043.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
 ne 2045.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2047.
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2047.
+e 2049.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2048.
+e 2050.
 LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2049.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
 on input line 2051.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2053.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2076.
+on input line 2078.
 \U@D=\dimen149
 \l@unhyphenated=\language79
 
@@ -1206,10 +1206,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--97
 
 
 [22]
-
-LaTeX Warning: Citation `raniToolsTechniquesRealtime2025' on page 23 undefined 
-on input line 133.
-
 <pic/system_overview.png, id=86, 934.49126pt x 262.9825pt>
 File: pic/system_overview.png Graphic file (type png)
 <use pic/system_overview.png>
@@ -1219,16 +1215,36 @@ Package pdftex.def Info: pic/system_overview.png  used on input line 138.
 
 [23]
 
-[24 <./pic/system_overview.png>])
+[24 <./pic/system_overview.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+
 
 [25]
+Overfull \hbox (3.71376pt too wide) in paragraph at lines 183--191
+\OT1/ptm/b/n/10.95 Failure Events (FE) \OT1/ptm/m/n/10.95 The to-tal count of o
+c-cur-rences dur-ing which the ma-chine was non-operational. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--198
+
+ []
+
+
+
+[26])
+
+[27]
 \openout2 = `./doc/111Schluss.aux'.
 
  (doc/111Schluss.tex
 chapter 5.
 )
 
-[26
+[28
 
 
 
@@ -1274,25 +1290,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--79
 
 
 
-[27
+[29
 
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 113--116
+Underfull \hbox (badness 10000) in paragraph at lines 126--129
 []\OT1/ptm/m/n/10.95 thingsboard.  In-stalling Things-Board CE on Ubuntu Server
 .
  []
 
 )
 
-[28]
+[30]
 \openout2 = `./doc/202abkuerzungsverzeichnis.aux'.
 
  (doc/202abkuerzungsverzeichnis.tex)
 
-[29
+[31
 
 
 
@@ -1303,7 +1319,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--116
 
 
 
-[30
+[32
 
 
 
@@ -1314,20 +1330,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--116
 
 
 
-[31
+[33
 
 
 ]
 chapter A.
 
 
-[32
+[34
 
 ]
 chapter B.
 
 
-[33
+[35
 
 ] (000arbeit.aux (doc/001titelblatt.aux) (doc/002erklaerung.aux)
 (doc/101Introduction.aux) (doc/102Foundations.aux) (doc/102RelatedWork.aux)
@@ -1335,7 +1351,7 @@ chapter B.
 (doc/202abkuerzungsverzeichnis.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-06-09>
+L3 programming layer <2025-07-19>
  ***********
 
 
@@ -1350,13 +1366,13 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 95 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16953 strings out of 468220
- 342637 string characters out of 5432871
- 917829 words of memory out of 5000000
- 45136 multiletter control sequences out of 15000+600000
- 646065 words of font info for 79 fonts, out of 8000000 for 9000
+ 16959 strings out of 468148
+ 342766 string characters out of 5431061
+ 920768 words of memory out of 5000000
+ 45214 multiletter control sequences out of 15000+600000
+ 647079 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,20n,107p,10956b,821s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,20n,107p,10956b,823s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmmi10.pfb><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nicol/AppData/Local/Programs/MiKTeX/
@@ -1367,9 +1383,9 @@ ata/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/nicol/A
 ppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/nicol/A
 ppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/nicol/A
 ppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 000arbeit.pdf (33 pages, 394509 bytes).
+Output written on 000arbeit.pdf (35 pages, 400249 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
+ 169 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

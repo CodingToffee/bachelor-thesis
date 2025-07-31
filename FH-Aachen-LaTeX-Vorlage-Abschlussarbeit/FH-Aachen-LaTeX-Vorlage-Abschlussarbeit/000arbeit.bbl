@@ -77,6 +77,13 @@ Ltd, R.~P.
 \newblock Buy a {{Raspberry Pi}} 2 {{Model B}}.
 \newblock https://www.raspberrypi.com/products/raspberry-pi-2-model-b/.
 
+\bibitem[Muchiri and Pintelon, 2008]{muchiriPerformanceMeasurementUsing2008}
+Muchiri, P. and Pintelon, L. (2008).
+\newblock Performance measurement using overall equipment effectiveness
+  ({{OEE}}): Literature review and practical application discussion.
+\newblock {\em International Journal of Production Research},
+  46(13):3517--3535.
+
 \bibitem[Neely et~al., 1995]{neelyPerformanceMeasurementSystem1995}
 Neely, A., Gregory, M., and Platts, K. (1995).
 \newblock Performance measurement system design: {{A}} literature review
@@ -92,6 +99,12 @@ Quoc, H.~D., Thuy, T. T.~T., Sinh, Q.~N., Danh, H.~B., and Lan, A. V.~T.
 \newblock In Nghia, P.~T., Thai, V.~D., Thuy, N.~T., Huynh, V.-N., and
   Van~Huan, N., editors, {\em Advances in {{Information}} and {{Communication
   Technology}}}, pages 1054--1062, Cham. Springer Nature Switzerland.
+
+\bibitem[Rani, 2025]{raniToolsTechniquesRealtime2025}
+Rani, S. (2025).
+\newblock Tools and techniques for real-time data processing: {{A}} review.
+\newblock {\em International Journal of Science and Research Archive},
+  14(1):1872--1881.
 
 \bibitem[Rose et~al., ]{roseInternetThingsOverview}
 Rose, K., Eldridge, S., and Chapin, L.

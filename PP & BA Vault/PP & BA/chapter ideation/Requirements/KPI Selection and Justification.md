@@ -10,11 +10,22 @@ The signal "homescreen and not sewing" can be used to observe the activation of 
 ------
 Also when only the signal "homescreen and not sewing" is active, that means that the machine is in idle state. Therefore it can be measured how long the machine is in idle state.
 
+**Base Calculations**
+To have a better overview of the supporting elements, they are listed below with their respective formula.
+
+Planned Downtime
+Usuall the planned downtime would also include planned maintenance etc. but we don't have that so only the breaks are considered planned downtime. Although technically it is not a kind of downtime. But for illustrative purposes it will be considered downtime.
+
+
+
+
 **Describe the KPIs that can be calculated based on these observations**
 Based on these supporting elements the basic KPIs can be calculated.
-There are going to be some KPIs that were mentioned in sewing performance measurement studies. These are Performance, Availability and OEE. But these KPIs are not solely interesting for the textile industry because they are also relevant in general for production.
+There are going to be some KPIs that were mentioned in sewing performance measurement studies. These are Performance, Availability and OEE. But these KPIs are not solely interesting for the textile industry because they are also relevant in general for production. Some of the KPIs are just averages of supporting elements. They shall help to identify the reasons behind the values of higher level KPIs.
 
 Performance
-Measures
+
+
+
 
 

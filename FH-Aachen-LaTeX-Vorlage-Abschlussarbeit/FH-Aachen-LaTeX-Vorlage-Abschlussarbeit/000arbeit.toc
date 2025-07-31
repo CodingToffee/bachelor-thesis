@@ -36,14 +36,17 @@
 \contentsline {subsection}{\numberline {4.0.5}Dashboarding Tool Selection}{23}{}%
 \contentsline {subsection}{\numberline {4.0.6}System Architecture}{24}{}%
 \contentsline {subsection}{\numberline {4.0.7}KPI Selection and Justification}{24}{}%
-\contentsline {chapter}{\numberline {5}\textbf {Zusammenfassung und Ausblick}}{26}{}%
+\contentsline {subsubsection}{\nonumberline Supporting Elements}{25}{}%
+\contentsline {subsubsection}{\nonumberline Maintenance Elements}{26}{}%
+\contentsline {subsubsection}{\nonumberline Basic KPIs}{26}{}%
+\contentsline {chapter}{\numberline {5}\textbf {Implementation}}{28}{}%
 \vspace {0.8cm}
-\contentsline {chapter}{Quellenverzeichnis}{28}{}%
-\contentsline {chapter}{Abkürzungsverzeichnis}{29}{}%
-\contentsline {chapter}{Abbildungsverzeichnis}{30}{}%
-\contentsline {chapter}{Tabellenverzeichnis}{31}{}%
+\contentsline {chapter}{Quellenverzeichnis}{30}{}%
+\contentsline {chapter}{Abkürzungsverzeichnis}{31}{}%
+\contentsline {chapter}{Abbildungsverzeichnis}{32}{}%
+\contentsline {chapter}{Tabellenverzeichnis}{33}{}%
 \vspace {0.8cm}
-\contentsline {chapter}{Anhang}{31}{}%
-\contentsline {chapter}{\numberline {A}Quellcode}{32}{}%
-\contentsline {chapter}{\numberline {B}Rohdatenvisualisierungen}{33}{}%
+\contentsline {chapter}{Anhang}{33}{}%
+\contentsline {chapter}{\numberline {A}Quellcode}{34}{}%
+\contentsline {chapter}{\numberline {B}Rohdatenvisualisierungen}{35}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

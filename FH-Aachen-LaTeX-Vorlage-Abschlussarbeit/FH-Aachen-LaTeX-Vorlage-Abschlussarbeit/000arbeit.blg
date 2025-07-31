@@ -43,45 +43,45 @@ Warning--empty year in roseInternetThingsOverview
 Warning--empty journal in roseInternetThingsOverview
 Warning--empty year in thingsboardInstallingThingsBoardCE
 Warning--empty journal in youngIndustrialInternetReference2022
-You've used 24 entries,
+You've used 26 entries,
             1935 wiz_defined-function locations,
-            631 strings with 9687 characters,
-and the built_in function-call counts, 8456 in all, are:
-= -- 849
-> -- 292
-< -- 14
-+ -- 103
-- -- 97
-* -- 644
-:= -- 1411
-add.period$ -- 63
-call.type$ -- 24
-change.case$ -- 165
-chr.to.int$ -- 24
-cite$ -- 50
-duplicate$ -- 367
-empty$ -- 613
-format.name$ -- 118
-if$ -- 1697
+            648 strings with 10240 characters,
+and the built_in function-call counts, 9259 in all, are:
+= -- 933
+> -- 312
+< -- 16
++ -- 109
+- -- 103
+* -- 716
+:= -- 1545
+add.period$ -- 69
+call.type$ -- 26
+change.case$ -- 178
+chr.to.int$ -- 26
+cite$ -- 52
+duplicate$ -- 395
+empty$ -- 677
+format.name$ -- 128
+if$ -- 1855
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 13
-newline$ -- 113
-num.names$ -- 53
-pop$ -- 183
+missing$ -- 15
+newline$ -- 123
+num.names$ -- 59
+pop$ -- 190
 preamble$ -- 1
-purify$ -- 166
+purify$ -- 179
 quote$ -- 0
-skip$ -- 272
+skip$ -- 294
 stack$ -- 0
-substring$ -- 559
-swap$ -- 63
+substring$ -- 645
+swap$ -- 65
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 144
+type$ -- 156
 warning$ -- 19
-while$ -- 59
+while$ -- 67
 width$ -- 0
-write$ -- 273
+write$ -- 299
 (There were 22 warnings)

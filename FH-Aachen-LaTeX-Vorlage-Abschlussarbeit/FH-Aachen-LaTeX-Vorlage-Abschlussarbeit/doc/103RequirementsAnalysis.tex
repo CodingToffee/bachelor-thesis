@@ -152,3 +152,67 @@ Initially, the pressure foot is lifted to allow the operator to insert the mater
 According to the established sequence of events, the duration of the machine's operational time can be determined. The duration of the main shaft rotation signal being true corresponds to the actual sewing time. The number of pieces produced can be determined by counting the instances in which the thread trimming signal transitions to true, as each event signifies the completion of a workpiece. Furthermore, the cycle time can be calculated by measuring the interval between consecutive activations of the thread trimming signal.
 The signal "other than homescreen" could be indicative of a modification in the machine's configuration.
 The signal "homescreen and not sewing" can be used to observe the machine's activation. One might hypothesize that this phenomenon is merely an inverted state of the "upper shaft rotating" signal. This phenomenon is observed when the machine is activated. However, when the machine is deactivated, all signals are false. Therefore, the transition from all signals being false to "homescreen and not sewing" being true, while the other signals remain false, would indicate the activation of the machine. This could be used to measure setup time until the first pattern arises.
+When only the "homescreen and not sewing" signal is active, it means the machine is idle. Therefore, the length of time that the machine is in the idle state can be measured.
+
+\subsubsection{Supporting Elements}
+To facilitate a comprehensive understanding of the supporting elements and the KPIs, the following section provides detailed explanations of these elements, along with their respective formulae if the calculation involves more the simply counting or measuring. Most of the definitions stem from Kang et al. \cite{kangHierarchicalStructureKey2016} Hierachical Structure of Key Performance Indicators [...].\\
+
+\textbf{Processed Quantity (PQ)}
+The production of a piece is initiated with the trimming of the thread. The calculation of the pieces is achieved through the enumeration of these events.\\
+\textbf{Planned Downtime (PDT)}
+In accordance with standard practice, the planned downtime is intended to encompass deliberate maintenance procedures and related activities. However, in the absence of such scheduled maintenance, the only components that are considered to be within the scope of planned downtime are the designated breaks. While it does not technically constitute a form of downtime, for the sake of illustration, the aforementioned period will be designated as "downtime." \\
+\textbf{Planned Operation Time (POT)}
+The designated period when a machine is available for use. \\
+\textbf{Actual Down Time (ADT)}
+The actual duration during which production is suspended due to breakdowns, brief stoppages, and other unanticipated disruptions.\\
+\textbf{Actual Production Time (APT)}
+The period during which the machine is actively producing for an order, encompassing only value-adding activities.
+In the instance of the production pattern, the worker is engaged in the active utilization of the machine. The calculation of production time is determined by the summation of the duration of these patterns.\\
+\textbf{Planned Cycle Time (PCT)}
+The estimated ideal time required to manufacture a single unit. The cycle time is defined as the time interval between the completion of one task and the commencement of the next. In this work the cycle time is only measuring the single step undertaken on the sewing machine under consideration. Kang et al. designate it "planned run time per item." However, given the significance of this metric for sewing-specific processes, it is referred to as "cycle time" in accordance with sewing-related publications.\\
+\textbf{Actual Cycle Time (ACT)}
+The actual time required to manufacture a single unit.\\
+\textbf{Setup Time (ST)}
+This period is typically characterized by the machine's preparation for the subsequent order. In this study, the setup time is defined as the interval between the initiation of the machine at the commencement of a shift and the first production of a piece. This specific definition is employed due to the inherent limitations of the measurement capability, which restricts the evaluation to this particular temporal interval.\\
+\textbf{Idle Time (IT)}
+The time during which the machine could potentially be utilized but is not being actively employed.\\
+\textbf{Planned Busy Time (PBT)}
+The scheduled period during which a machine is actively engaged in operation.
+
+\subsubsection{Maintenance Elements}
+\textbf{Time to Repair (TTR)}
+The period during which a machine is rendered inoperable due to a malfunction, i.e., undergoing maintenance or repair.\\
+\textbf{Time to Failure (TTF)}
+The period during which a machine is operational, commencing at the conclusion of the repair process and concluding when the machine experiences a subsequent failure.\\
+\textbf{Operating Time between Failures (OTBF)}
+The effective production time of a unit measured between two successive instances of machine failure.\\
+\textbf{Failure Events (FE)}
+The total count of occurrences during which the machine was non-operational.
+
+\subsubsection{Basic KPIs}
+The supporting elements that have been explained are used to calculate the basic KPIs.
+Some of these KPIs were mentioned in studies on sewing performance measurement. These are performance, availability, OEE and average cycle time. However, these KPIs are not only interesting for the textile industry because they are also generally relevant to production. Some other KPIs are simply averages of supporting elements. They help identify the reasons behind the values of higher-level KPIs. Each of the selected KPIs will now be explained and shown with its respective formula.\\
+\\
+\textbf{Performance}\\
+The performance rate is a KPI which is necessary to calculate overall equipment effectiveness (OEE). It measures the speed at which equipment operates. It is compared to the equipment's maximum operating speed because this comparison is necessary to determine the equipment's effectiveness. \cite{muchiriPerformanceMeasurementUsing2008}
+\[
+\text{Performance Efficiency (P)} = \frac{\text{Theoretical Cycle time (hrs)} \times \text{Produced Pieces}}{\text{Operating Time (hrs)}}
+\]
+The term "actual output" refers to the number of units that are produced during the operation, whereas "theoretical cycle time" signifies the minimum potential cycle time that could have been achieved at the fastest practical speed. Operating time is defined as the duration during which the machine is in active operation.\\
+\textbf{Availability}
+is defined as the ratio between the actual production time and the planned busy (production) time.
+\[
+\text{Availability} = \frac{\text{Actual Production Time}}{\text{Planned Busy Time}}
+\]
+\textbf{Quality}
+This KPI is defined as the proportion of high-quality products in relation to the total number of units produced.
+\[
+\text{Quality Rate (Q)} = \frac{\text{(Total Production - Defect Amount)}}{\text{Total Production (Units)}} \times 100
+\]
+
+
+
+
+
+
+
