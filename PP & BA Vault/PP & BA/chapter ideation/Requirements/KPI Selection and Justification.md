@@ -23,9 +23,45 @@ Usuall the planned downtime would also include planned maintenance etc. but we d
 Based on these supporting elements the basic KPIs can be calculated.
 There are going to be some KPIs that were mentioned in sewing performance measurement studies. These are Performance, Availability and OEE. But these KPIs are not solely interesting for the textile industry because they are also relevant in general for production. Some of the KPIs are just averages of supporting elements. They shall help to identify the reasons behind the values of higher level KPIs.
 
-Performance
 
+**KPIs that are only averages and mean**
+The remaining KPIs are encompass only simple averages. The Cycle Time is divided by pieces and therefore resulting in the average cycle time per piece. The setup time is divided by shifts 
 
+**Average Cycle Time**
+The Cycle Time is summed up over all produced units and then devided by that count. 
+Average Cycle Time = total cycle time / produced quantity
 
+**Average Setup Time**
+The setup time is summed up over all shifts and then devided by the count of shifts.
+Average Setup Time = total setup time / nr of shifts
+
+**Average Idle Time**
+The idle time is summed up and then devided by the count of shifts in the timeframe, resulting in the average idle time per shift.
+Average Idle Time = total idle time / nr. of shifts
+
+**Mean Time to Repair**
+The time to repair is summed up and then devided by the count of failure events.
+Mean Time to Repair = total time to repair / failure events
+
+**Mean Time to Failure**
+The time to failure is summed up and then devided by the count of failure events.
+Mean Time to Failure = total time to failure / failure events
+
+**Mean Operating Time between Failures**
+The OTBF is summed up and devided by the count of failure events.
+Mean Operating Time between Failures = total operating time between failures / failure events
+
+**Average Actual Operating Time**
+The APT is summed up and devided by the count of shifts in the timeframe, resulting in the average actual operating time per shift.
+Average Actual Operating Time = total actual operating time / nr of shifts
+
+**Comprehensive KPIs**
+According to Kang et al., based on the Basic KPIs, comprehenisve KPIs can be calculated.
+
+**OEE**
+Overall Equipment Effectiveness (OEE) is formally defined as a comprehensive metric quantifying the total performance of a given piece of equipment. It integrates factors of availability, performance, and quality to provide a holistic assessment of operational efficiency. Bluntly said "[...]the degree to which the equipment is doing what it is supposed to do ." \cite{muchiriPerformanceMeasurementUsing2008}
+Overall Equipment Effectiveness = Availability * Performance Efficiency * Quality Rate
+
+**NEE**
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.30)  31 JUL 2025 14:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.30)  1 AUG 2025 16:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1235,16 +1235,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 193--198
 
 
 
-[26])
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 249--252
 
-[27]
+ []
+
+
+
+[27])
+
+[28]
 \openout2 = `./doc/111Schluss.aux'.
 
  (doc/111Schluss.tex
 chapter 5.
 )
 
-[28
+[29
 
 
 
@@ -1290,7 +1297,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--79
 
 
 
-[29
+[30
 
 
 
@@ -1303,12 +1310,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--129
 
 )
 
-[30]
+[31]
 \openout2 = `./doc/202abkuerzungsverzeichnis.aux'.
 
  (doc/202abkuerzungsverzeichnis.tex)
 
-[31
+[32
 
 
 
@@ -1319,7 +1326,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--129
 
 
 
-[32
+[33
 
 
 
@@ -1330,20 +1337,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--129
 
 
 
-[33
+[34
 
 
 ]
 chapter A.
 
 
-[34
+[35
 
 ]
 chapter B.
 
 
-[35
+[36
 
 ] (000arbeit.aux (doc/001titelblatt.aux) (doc/002erklaerung.aux)
 (doc/101Introduction.aux) (doc/102Foundations.aux) (doc/102RelatedWork.aux)
@@ -1372,7 +1379,7 @@ Here is how much of TeX's memory you used:
  45214 multiletter control sequences out of 15000+600000
  647079 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,20n,107p,10956b,823s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,20n,107p,10956b,825s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmmi10.pfb><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nicol/AppData/Local/Programs/MiKTeX/
@@ -1383,9 +1390,9 @@ ata/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/nicol/A
 ppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/nicol/A
 ppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/nicol/A
 ppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 000arbeit.pdf (35 pages, 400249 bytes).
+Output written on 000arbeit.pdf (36 pages, 403998 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
+ 172 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

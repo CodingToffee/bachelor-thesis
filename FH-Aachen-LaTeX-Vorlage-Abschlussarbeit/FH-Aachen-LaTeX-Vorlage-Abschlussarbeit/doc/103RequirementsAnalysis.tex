@@ -207,12 +207,59 @@ is defined as the ratio between the actual production time and the planned busy 
 \textbf{Quality}
 This KPI is defined as the proportion of high-quality products in relation to the total number of units produced.
 \[
-\text{Quality Rate (Q)} = \frac{\text{(Total Production - Defect Amount)}}{\text{Total Production (Units)}} \times 100
+\text{Quality Rate (Q)} = \frac{\text{(Total Production - Defect Amount)}}{\text{Total Production (Units)}} 
+\]
+\textbf{Average Cycle Time}
+The cycle time for each produced unit is first aggregated to create a sum. This sum is then divided by the produced quantity to calculate the mean cycle time.
+\[
+\text{Average Cycle Time} = \frac{\text{Total Cycle Time}}{\text{Produced Quantity}}
+\]
+\textbf{Average Setup Time}
+The calculation of the setup time is performed by aggregating the values across all shifts and subsequently dividing this sum by the total number of shifts.
+\[
+\text{Average Setup Time} = \frac{\text{Total Setup Time}}{\text{Nr. of Shifts}}
+\]
+\textbf{Average Idle Time}
+The aggregate idle time is subsequently divided by the total number of shifts within the specified timeframe, thereby yielding the average idle time per shift.
+\[
+\text{Average Idle Time} = \frac{\text{Total Idle Time}}{\text{Nr. of Shifts}}
+\]
+\textbf{Mean Time to Repair}
+The cumulative repair time is subsequently divided by the total number of failure events, thereby yielding the average repair time per event.
+\[
+\text{Mean Time to Repair} = \frac{\text{Total Time to Repair}}{\text{Failure Events}}
+\]
+\textbf{Mean Time to Failure}
+The cumulative time to failure is subsequently divided by the total number of failure events, thereby yielding the average time to failure per event.
+\[
+\text{Mean Time to Failure} = \frac{\text{Total Time to Failure}}{\text{Failure Events}}
+\]
+\textbf{Mean Operating Time between Failures}
+The cumulative operating time between failures is subsequently divided by the total number of failure events, thereby yielding the average operating time between failures per event.
+\[
+\text{Mean Operating Time between Failures} = \frac{\text{Total Operating Time between Failures}}{\text{Failure Events}}
+\]
+\textbf{Average Actual Operating Time}
+The aggregate actual operating time is subsequently divided by the total number of shifts within the specified timeframe, thereby yielding the average actual operating time per shift.
+\[
+\text{Average Actual Operating Time} = \frac{\text{Total Actual Operating Time}}{\text{Nr. of Shifts}}
 \]
 
-
-
-
-
+\subsubsection{Comprehensive KPIs}
+According to Kang et al., based on the Basic KPIs, comprehenisve KPIs can be calculated.\\\\
+\textbf{Overall Equipment Effectiveness (OEE)}
+Overall Equipment Effectiveness (OEE) is formally defined as a comprehensive metric quantifying the total performance of a given piece of equipment. It integrates factors of availability, performance, and quality to provide a holistic assessment of operational efficiency. Bluntly said "[...]the degree to which the equipment is doing what it is supposed to do ." \cite{muchiriPerformanceMeasurementUsing2008}
+\[
+\text{Overall Equipment Effectiveness} = \text{Availability} \times \text{Performance Efficiency} \times \text{Quality Rate}
+\]
+\textbf{Net Equiptment Effectiveness (NEE)}
+Analogous to OEE, this methodology incorporates setup time through the modification of the availability KPI, whereby it is redefined as the ratio between actual unit processing time (AUPT) and planned busy time (PBT). The AUPT encompasses the temporal duration during which the machine is actively utilized for order execution, inclusive of the requisite setup time for the respective order. Because in the setting of this work there are no orders, it is not possible to calculate the AUPT. But it is approximated by taking into account the setup time for a shift. The original formula for the NEE is as follows.
+\[
+\text{NEE} = \frac{\text{AUPT}}{\text{PBT}} \cdot \text{PE} \cdot \text{QR}.
+\]
+By changing the first factor into simply adding the actual production time and the setup time, the approximating formula results into:
+\[
+\text{NEE} = \frac{\text{APT}+\text{ST}}{\text{PBT}} \cdot \text{PE} \cdot \text{QR}.
+\]
 
 
