@@ -41,13 +41,15 @@
 \contentsline {subsubsection}{\nonumberline Basic KPIs}{26}{}%
 \contentsline {subsubsection}{\nonumberline Comprehensive KPIs}{28}{}%
 \contentsline {chapter}{\numberline {5}\textbf {Implementation}}{29}{}%
+\contentsline {subsubsection}{\nonumberline Sewing Machine Signal Connection and Data Acquisition}{29}{}%
+\contentsline {chapter}{\numberline {6}\textbf {Schluss}}{31}{}%
 \vspace {0.8cm}
-\contentsline {chapter}{Quellenverzeichnis}{31}{}%
-\contentsline {chapter}{Abkürzungsverzeichnis}{32}{}%
-\contentsline {chapter}{Abbildungsverzeichnis}{33}{}%
-\contentsline {chapter}{Tabellenverzeichnis}{34}{}%
+\contentsline {chapter}{Quellenverzeichnis}{33}{}%
+\contentsline {chapter}{Abkürzungsverzeichnis}{34}{}%
+\contentsline {chapter}{Abbildungsverzeichnis}{35}{}%
+\contentsline {chapter}{Tabellenverzeichnis}{36}{}%
 \vspace {0.8cm}
-\contentsline {chapter}{Anhang}{34}{}%
-\contentsline {chapter}{\numberline {A}Quellcode}{35}{}%
-\contentsline {chapter}{\numberline {B}Rohdatenvisualisierungen}{36}{}%
+\contentsline {chapter}{Anhang}{36}{}%
+\contentsline {chapter}{\numberline {A}Quellcode}{37}{}%
+\contentsline {chapter}{\numberline {B}Rohdatenvisualisierungen}{38}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

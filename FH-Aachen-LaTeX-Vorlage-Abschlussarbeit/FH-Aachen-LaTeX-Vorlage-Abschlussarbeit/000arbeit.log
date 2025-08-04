@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.30)  1 AUG 2025 16:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.7.30)  4 AUG 2025 18:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -728,6 +728,13 @@ LaTeX Warning: Label `grundlagen' multiply defined.
 
 LaTeX Warning: Label `fig:Model-Component-Pattern' multiply defined.
 
+) (doc/104Implementation.aux
+
+LaTeX Warning: Label `fig:Model-Component-Pattern' multiply defined.
+
+
+LaTeX Warning: Label `fig:Model-Component-Pattern' multiply defined.
+
 ) (doc/111Schluss.aux) (doc/202abkuerzungsverzeichnis.aux))
 \openout1 = `000arbeit.aux'.
 
@@ -919,18 +926,18 @@ mhal-tung. Sie darf vorher weder vollst[]andig
 
 
 
-] (000arbeit.toc)
-\tf@toc=\write3
-\openout3 = `000arbeit.toc'.
-
-
+] (000arbeit.toc
 
 [3
 
 
 
 
-]
+])
+\tf@toc=\write3
+\openout3 = `000arbeit.toc'.
+
+
 
 [4]
 \openout2 = `./doc/101Introduction.aux'.
@@ -1245,11 +1252,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 249--252
 [27])
 
 [28]
-\openout2 = `./doc/111Schluss.aux'.
+\openout2 = `./doc/104Implementation.aux'.
 
- (doc/111Schluss.tex
+ (doc/104Implementation.tex
 chapter 5.
-)
+<pic/sewing-machine-plc-init.png, id=107, 1291.07344pt x 770.88pt>
+File: pic/sewing-machine-plc-init.png Graphic file (type png)
+<use pic/sewing-machine-plc-init.png>
+Package pdftex.def Info: pic/sewing-machine-plc-init.png  used on input line 10
+.
+(pdftex.def)             Requested size: 352.61333pt x 210.55022pt.
+<pic/optocoupler-wiring.jpg, id=108, 844.15375pt x 498.86375pt>
+File: pic/optocoupler-wiring.jpg Graphic file (type jpg)
+<use pic/optocoupler-wiring.jpg>
+Package pdftex.def Info: pic/optocoupler-wiring.jpg  used on input line 16.
+(pdftex.def)             Requested size: 385.17253pt x 227.62204pt.
+
 
 [29
 
@@ -1257,12 +1275,27 @@ chapter 5.
 
 
 
+ <./pic/sewing-machine-plc-init.png>])
+
+[30 <./pic/optocoupler-wiring.jpg>]
+\openout2 = `./doc/111Schluss.aux'.
+
+ (doc/111Schluss.tex
+chapter 6.
+)
+
+[31
+
+
+
+
+
 ]
 
-LaTeX Warning: Citation `Segmentation' undefined on input line 155.
+LaTeX Warning: Citation `Segmentation' undefined on input line 156.
 
 
-LaTeX Warning: Citation `ImageAttack' undefined on input line 156.
+LaTeX Warning: Citation `ImageAttack' undefined on input line 157.
 
 (000arbeit.bbl
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 8
@@ -1297,7 +1330,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--79
 
 
 
-[30
+[32
 
 
 
@@ -1310,12 +1343,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--129
 
 )
 
-[31]
+[33]
 \openout2 = `./doc/202abkuerzungsverzeichnis.aux'.
 
  (doc/202abkuerzungsverzeichnis.tex)
 
-[32
+[34
 
 
 
@@ -1326,7 +1359,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--129
 
 
 
-[33
+[35
 
 
 
@@ -1337,25 +1370,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--129
 
 
 
-[34
+[36
 
 
 ]
 chapter A.
 
 
-[35
+[37
 
 ]
 chapter B.
 
 
-[36
+[38
 
 ] (000arbeit.aux (doc/001titelblatt.aux) (doc/002erklaerung.aux)
 (doc/101Introduction.aux) (doc/102Foundations.aux) (doc/102RelatedWork.aux)
-(doc/103RequirementsAnalysis.aux) (doc/111Schluss.aux)
-(doc/202abkuerzungsverzeichnis.aux))
+(doc/103RequirementsAnalysis.aux) (doc/104Implementation.aux)
+(doc/111Schluss.aux) (doc/202abkuerzungsverzeichnis.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-19>
@@ -1373,13 +1406,13 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 95 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 16959 strings out of 468148
- 342766 string characters out of 5431061
- 920768 words of memory out of 5000000
- 45214 multiletter control sequences out of 15000+600000
+ 17000 strings out of 468148
+ 344579 string characters out of 5431061
+ 921309 words of memory out of 5000000
+ 45248 multiletter control sequences out of 15000+600000
  647079 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,20n,107p,10956b,825s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,20n,107p,10956b,845s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmmi10.pfb><C:/Users/nicol/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmmi8.pfb><C:/Users/nicol/AppData/Local/Programs/MiKTeX/
@@ -1390,9 +1423,9 @@ ata/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/nicol/A
 ppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/nicol/A
 ppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/nicol/A
 ppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 000arbeit.pdf (36 pages, 403998 bytes).
+Output written on 000arbeit.pdf (38 pages, 876481 bytes).
 PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
+ 184 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
