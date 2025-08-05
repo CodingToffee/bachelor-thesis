@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PP & BA/chapter ideation/Implementation/Data Acquisition Setup.md",
+                "file": "PP & BA/chapter ideation/Implementation/Data retrieval and preprocessing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Acquisition Setup"
+              "title": "Data retrieval and preprocessing"
             }
           }
         ]
@@ -171,8 +171,9 @@
   },
   "active": "c74d00d3eb1e9fc3",
   "lastOpenFiles": [
-    "PP & BA/chapter ideation/Requirements/KPI Selection and Justification.md",
     "PP & BA/chapter ideation/Implementation/Data Acquisition Setup.md",
+    "PP & BA/chapter ideation/Implementation/Data retrieval and preprocessing.md",
+    "PP & BA/chapter ideation/Requirements/KPI Selection and Justification.md",
     "PP & BA/chapter ideation/Implementation",
     "PP & BA/chapter ideation/Foundations/Setting.md",
     "PP & BA/chapter ideation/Requirements/Requirements and System Design.md",
@@ -212,7 +213,6 @@
     "source-notes/dominguez-bolanoOverviewIoTArchitectures2022.md",
     "PP & BA/source-notes/Related Work/modern industrial env",
     "PP & BA/source-notes/Related Work/overview",
-    "PP & BA/Strategic/How to write related work section.md",
     "PP & BA/source-notes/KPIs/herrera-barreda2024/image-5-x128-y474.png",
     "source-notes/turkiEvaluatingOpenSource2024/image-7-x71-y455.png",
     "PP & BA/source-notes/Database Evaluation/turkogluComparisonTimeSeries2024/image-2-x39-y644.png"
