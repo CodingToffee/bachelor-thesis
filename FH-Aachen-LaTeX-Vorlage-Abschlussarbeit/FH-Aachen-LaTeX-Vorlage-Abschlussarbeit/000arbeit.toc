@@ -43,14 +43,14 @@
 \contentsline {chapter}{\numberline {5}\textbf {Implementation}}{29}{}%
 \contentsline {subsubsection}{\nonumberline Sewing Machine Signal Connection and Data Acquisition}{29}{}%
 \contentsline {subsection}{\numberline {5.0.1}Data preprocessing}{31}{}%
-\contentsline {chapter}{\numberline {6}\textbf {Schluss}}{32}{}%
+\contentsline {chapter}{\numberline {6}\textbf {Schluss}}{33}{}%
 \vspace {0.8cm}
-\contentsline {chapter}{Quellenverzeichnis}{34}{}%
-\contentsline {chapter}{Abkürzungsverzeichnis}{35}{}%
-\contentsline {chapter}{Abbildungsverzeichnis}{36}{}%
-\contentsline {chapter}{Tabellenverzeichnis}{37}{}%
+\contentsline {chapter}{Quellenverzeichnis}{35}{}%
+\contentsline {chapter}{Abkürzungsverzeichnis}{36}{}%
+\contentsline {chapter}{Abbildungsverzeichnis}{37}{}%
+\contentsline {chapter}{Tabellenverzeichnis}{38}{}%
 \vspace {0.8cm}
-\contentsline {chapter}{Anhang}{37}{}%
-\contentsline {chapter}{\numberline {A}Quellcode}{38}{}%
-\contentsline {chapter}{\numberline {B}Rohdatenvisualisierungen}{39}{}%
+\contentsline {chapter}{Anhang}{38}{}%
+\contentsline {chapter}{\numberline {A}Quellcode}{39}{}%
+\contentsline {chapter}{\numberline {B}Rohdatenvisualisierungen}{40}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
