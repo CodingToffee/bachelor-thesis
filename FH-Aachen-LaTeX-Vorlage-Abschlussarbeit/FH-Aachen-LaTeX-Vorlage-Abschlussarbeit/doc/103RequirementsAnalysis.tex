@@ -2,7 +2,7 @@
 In order to select the most suitable technologies and design the system, it is first necessary to establish clear requirements. In this chapter, the aforementioned requirements will be enumerated and elucidated.
 In order to maintain consistency regarding the compliance level, the terms "must," "should," and "will" were employed.
 The following words shall be explained in brief. The term "must" is employed to signify an unconditional obligation, implying that the fulfillment of this requirement is not subject to discussion or negotiation. The term "should" conveys a degree of desirability, indicating that fulfillment of the requirement would be advantageous. The term "will" signifies that this particular requirement is currently under consideration for inclusion in the subsequent release. However, it is imperative to maintain awareness of this requirement so that the system can be designed in a manner that facilitates its seamless integration in the future.
-\subsection{Functional System Requirements} % (from your requirements table)
+\section{Functional System Requirements} % (from your requirements table)
 \begin{tabularx}{\textwidth}{|X|X|}
 	\hline
 \textbf{Requirement}	& \textbf{Explanation} \\
@@ -19,7 +19,7 @@ The system should show graphs with historical data & Enables management to see t
 	\hline
 \end{tabularx}
 
-\subsection{Non-Functional Requirements} %(scalability, security, real-time processing)
+\section{Non-Functional Requirements} %(scalability, security, real-time processing)
 \begin{tabularx}{\textwidth}{|X|X|}
 	\hline
 \textbf{Requirement}	&  \textbf{Explanation}\\
@@ -44,7 +44,7 @@ The system must provide the user with the ability to access the dashboard from w
 	\hline
 \end{tabularx}
 
-\subsection{IoT Platform Evaluation and Selection} 
+\section{IoT Platform Evaluation and Selection} 
 The raw data from the PLC had to undergo processing, storage, and visualization. The utility of IoT platforms stems from their ability to execute these functions and frequently extend beyond them.  These systems meet the criteria for scalability and leverage existing solutions. To ensure that the selected platform satisfies other requirements and does not conflict with any necessary ones, a decision support framework was developed. The present framework draws inspiration from the one proposed by Gustin and Jasperneite \cite{gustinIoTDeviceManagement2022}. The researchers identified a set of criteria and classified them into categories. The categories encompassed "Knock-Out," "Device Management," "Hosting," "General," and "Effort." Each category was assigned a weight, with the exception of the "Knock-Out" category. The "Knock-Out" category indicates that a criterion tagged with it must be met; otherwise, the platform will not be considered further. The weights are expressed as percentages, and when added together, they equal 100\%. In addition, each criterion is assigned a distinct weight, thereby enabling the allocation of greater significance to specific criteria. The evaluation of each platform is subsequently determined by the following formula:
 \[ s_i = f_i \cdot 100P \cdot \mathit{weight}_{category} \cdot \mathit{weight}_{criterion} \]
 In this context, $f_i$ denotes the fulfillment factor.
@@ -53,7 +53,7 @@ The newly developed framework is distinguished by the following characteristics:
 The fulfillment factor is typically binary in nature. The value of the variable can be either one or zero; however, in some cases, it can also be fractional. For instance, it would be advantageous for the platforms to support additional communication protocols beyond OPC UA. Specifically, the focus is on HTTP, MQTT, CoAP, and AMQP. In the event that a given platform offers support for only one of these, it is awarded a quarter point. In the event that this is the case, it will be elucidated in the subsequent explanation. The fulfillment of the criteria was determined in the same manner as that employed by the researchers. An investigation was conducted into the documentation, website, and GitHub repository of the platform. In the event that information regarding the availability of the criterion was ascertained, the point was granted. In the absence of pertinent information, the concept in question was deemed to be nonexistent.
 The subsequent paragraphs will provide detailed explanations for each of the aforementioned criteria. A selection of the materials was obtained from the publication by Gustin and Jasperneite if their utility was deemed to be beneficial. The remaining ones were developed in response to specific requirements.
 
-\subsubsection{Knock-Out Criteria}
+\subsection{Knock-Out Criteria}
 \textbf{Availability of Documentation}\\
 The implementation, deployment, and utilization of the solution are contingent upon the availability of English-language documentation, which is imperative for effective operation. This criterion originates from the seminal contributions of  Gustin and Jasperneite\\
 \textbf{Cloud independence}\\
@@ -63,7 +63,7 @@ In order to visualize the KPIs, the data must first undergo processing, after wh
 \textbf{OPC-UA capability}\\
 The PLC that controls the sewing machine transmits the data via the OPC UA protocol. Therefore, it is imperative that the platform demonstrate its capacity to effectively manage this particular protocol. This criterion is predicated on the requirements.
 
-\subsubsection{High Importance Criteria}
+\subsection{High Importance Criteria}
 \textbf{Dashboarding Capabilities}\\
 In order to facilitate the visualization of KPIs, the platform must possess the capacity to construct dashboards. This criterion pertains to the necessity of possessing the capacity for visualizing KPIs.\\
 \textbf{Actively Maintained}\\
@@ -76,13 +76,13 @@ This criterion delineates the ease with which rules can be created and data proc
 These examples methodically illustrate the server-side implementation process and the anticipated outcomes.This approach has been shown to expedite the implementation process.
 This criterion originates from the work of Gustin and Jasperneite
 
-\subsubsection{Medium Importance Criteria}
+\subsection{Medium Importance Criteria}
 \textbf{Supports MQTT, HTTP, CoAP, AMQP}\\
 The implementation of these protocols would significantly augment the system's scalability, as it would facilitate the connection of a greater number of machines, gateways, and microcontrollers. This criterion pertains to the necessity of having a scalable system with minimal effort.\\
 \textbf{Availability of Tutorials}\\
 Tutorials are instrumental in facilitating user comprehension of the platform and its applications, thereby accelerating the development process. This criterion originates from the work of Gustin and Jasperneite
 
-\subsubsection{Low Importance Criteria}
+\subsection{Low Importance Criteria}
 \textbf{Fault Detection}\\
 This feature facilitates the collection of data pertaining to anomalous behavior or fault conditions of the machine. Therefore, it facilitates the identification and resolution of potential issues. While it would certainly be a beneficial addition, this feature does not directly align with the primary objectives of the system.
 This criterion is derived from the work of Gustin and Jasperneite\\
@@ -114,7 +114,7 @@ The ensuing table 4.1 presents the results of the aforementioned calculations. I
 
 The evaluation metrics for Node-RED, ThingsBoard, and UMH exhibited a high degree of similarity, suggesting comparable levels of suitability among these options. Consequently, an in-depth investigation was conducted to ascertain their system requirements. Of the three options, the UMH configuration exhibits the most demanding specifications. It requires 200 GB of persistent memory, 16 GB of RAM, and an 8-core CPU \cite{UMHInstallationRequirements}, all of which the server configuration is incapable of meeting. The server configuration, on the other hand, has a specification of 100 GB of persistent memory, 8 GB of RAM, and an 8-core CPU. In the context of Thingsboard, the minimum amount of RAM required is specified as 4 GB \cite{thingsboardInstallingThingsBoardCE}. According to the official Node-RED website, there are no listed system requirements. However, it has been documented that it is capable of operating on a Raspberry Pi \cite{RunningNodeREDLocally}. Additionally, certain users have attested to the successful execution of the program on a Raspberry Pi 2 model \cite{NodeRedMinimun2020}, which possesses a mere 1 GB of RAM and a 900 MHz quad-core central processing unit  \cite{ltdBuyRaspberryPi}. Given its ostensibly minimal complexity and superior performance metrics in the preliminary evaluation, Node-RED was designated as the IoT platform for the system under development.
 
-\subsection{Database Selection}
+\section{Database Selection}
 The selection of a suitable DBMS was imperative for the storage of the data. In the theoretical foundations, the rationale for the superiority of a time series database in the context of IoT streaming data over a relational database was previously delineated. The selection of the Timeseries Database Management System (TS-DBMS) was executed with a lower degree of sophistication compared to that of the IoT Platform. The rationale underlying this matter is predicated upon the temporal limitations imposed on the undertaking. A comprehensive investigation was conducted to ascertain the most prominent TS-DBMSs on db-engines.com, a website dedicated to determining the popularity of DBMSs. The following metrics have been identified as contributing factors to the popularity ranking:
 
 \begin{itemize}
@@ -128,11 +128,11 @@ The selection of a suitable DBMS was imperative for the storage of the data. In 
 
 Subsequently, the capacity of InfluxDB to process boolean values was ascertained. This assertion was corroborated in the documentation \cite{WriteDataInfluxDB}. In addition, an assessment was conducted to ascertain whether InfluxDB is compatible with Node-RED. The package that was found (node-red-contrib-influxdb 0.7.0) has been determined to only support InfluxDB 1.x and 2.0 \cite{Noderedcontribinfluxdb}. Prior to this, it was determined that InfluxDB 3 Core's capacity for querying data is confined to a span of merely 72 hours \cite{QueryDataGet}, a limitation that was deemed inadequate in view of the necessity to compute historical KPIs. Consequently, InfluxdDB v2 was selected due to its compatibility with Node-RED and its capacity to support unlimited querying windows.
 
-\subsection{Dashboarding Tool Selection}
+\section{Dashboarding Tool Selection}
 Initially, the objective was to leverage the dashboarding capabilities of the selected IoT Platform Node-RED.
 However, it appears that the utilization of this particular node-RED feature for visualization purposes is not a prevalent practice. In contrast, another software program, Grafana, was utilized in a significant number of cases similar to the one under consideration in this study. Consequently, the decision was made to utilize Grafana for the development of dashboards, with the objective of facilitating the visualization of the KPIs. This approach was adopted to enhance the probability that other colleagues would be acquainted with the solution, thereby facilitating a more streamlined handover process. The decision was further corroborated by Rani in his work \cite{raniToolsTechniquesRealtime2025}, who states that it is highly appropriate for time series visualization and monitoring. Additionally, the integration of the system with various databases, including InfluxDB, is emphasized.
 
-\subsection{System Architecture}
+\section{System Architecture}
 The system architecture was designed in accordance with the three-tier architecture pattern from the IIRA mentioned in the foundation chapter. The Three Tier Architecture Pattern was selected because it exhibits a clear separation of concerns between the edge, platform, and enterprise tiers, thereby facilitating enhanced maintainability. Additionally, the progression of the distinct components is rendered more straightforward and less susceptible to errors in comparison to a monolithic application. The selected architecture pattern offers a distinct advantage, namely the seamless integration of supplementary devices and services. The incorporation of devices into the Node-RED system is contingent upon their connectivity to the shopfloor network. The integration of services at the platform or enterprise tier can be accomplished without the need for significant alterations to the existing system, thereby facilitating flexible expansion and adaptation to novel requirements.
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{pic/system_overview.png}
@@ -142,7 +142,7 @@ The system architecture was designed in accordance with the three-tier architect
 The signal outputs from the sewing machines are wired to the PLC, as illustrated by the continuous line. Conversely, the dashed lines signify the transmission of data either over a network or within a server. The PLC provides these signals via OPC UA, and it is accessible via the shopfloor network. In the context of this architecture, Node-RED performs a variety of functions. Initially, it functions as an IoT gateway, thereby aggregating data from disparate sources. In this particular instance, the sole source of data is from the PLC. However, the component is also capable of performing data processing operations.  Subsequently, the data is transmitted to the database. From there, it can be queried with the dashboarding solution. 
 
 
-\subsection{KPI Selection and Justification}
+\section{KPI Selection and Justification}
 The selection of KPIs is contingent upon the fulfillment of two requirements. First, it is necessary to establish a set of KPIs that are pertinent to the sewing process. Secondly, it is imperative to establish KPIs that are pertinent to manufacturing companies in general. Additionally, it is imperative that these KPIs be computable based on the available signals. Therefore, the initial step was to ascertain which elements that provide support can be calculated based on the signals. In addition, a determination was made regarding the observations that can be derived from the available signals. It is imperative to acknowledge that merely four of the machine's signals are accessible.
 
 Based on the analysis of the available machine signals—namely, thread trimming, pressure foot position, and main shaft rotation—a distinct production pattern can be identified and quantified. The observed sequence is as follows:
@@ -154,7 +154,7 @@ The signal "other than homescreen" could be indicative of a modification in the 
 The signal "homescreen and not sewing" can be used to observe the machine's activation. One might hypothesize that this phenomenon is merely an inverted state of the "upper shaft rotating" signal. This phenomenon is observed when the machine is activated. However, when the machine is deactivated, all signals are false. Therefore, the transition from all signals being false to "homescreen and not sewing" being true, while the other signals remain false, would indicate the activation of the machine. This could be used to measure setup time until the first pattern arises.
 When only the "homescreen and not sewing" signal is active, it means the machine is idle. Therefore, the length of time that the machine is in the idle state can be measured.
 
-\subsubsection{Supporting Elements}
+\subsection{Supporting Elements}
 To facilitate a comprehensive understanding of the supporting elements and the KPIs, the following section provides detailed explanations of these elements, along with their respective formulae if the calculation involves more the simply counting or measuring. Most of the definitions stem from Kang et al. \cite{kangHierarchicalStructureKey2016} Hierachical Structure of Key Performance Indicators [...].\\
 
 \textbf{Processed Quantity (PQ)}
@@ -179,7 +179,7 @@ The time during which the machine could potentially be utilized but is not being
 \textbf{Planned Busy Time (PBT)}
 The scheduled period during which a machine is actively engaged in operation.
 
-\subsubsection{Maintenance Elements}
+\subsection{Maintenance Elements}
 \textbf{Time to Repair (TTR)}
 The period during which a machine is rendered inoperable due to a malfunction, i.e., undergoing maintenance or repair.\\
 \textbf{Time to Failure (TTF)}
@@ -189,7 +189,7 @@ The effective production time of a unit measured between two successive instance
 \textbf{Failure Events (FE)}
 The total count of occurrences during which the machine was non-operational.
 
-\subsubsection{Basic KPIs}
+\subsection{Basic KPIs}
 The supporting elements that have been explained are used to calculate the basic KPIs.
 Some of these KPIs were mentioned in studies on sewing performance measurement. These are performance, availability, OEE and average cycle time. However, these KPIs are not only interesting for the textile industry because they are also generally relevant to production. Some other KPIs are simply averages of supporting elements. They help identify the reasons behind the values of higher-level KPIs. Each of the selected KPIs will now be explained and shown with its respective formula.\\
 \\
@@ -245,7 +245,7 @@ The aggregate actual operating time is subsequently divided by the total number 
 \text{Average Actual Operating Time} = \frac{\text{Total Actual Operating Time}}{\text{Nr. of Shifts}}
 \]
 
-\subsubsection{Comprehensive KPIs}
+\subsection{Comprehensive KPIs}
 According to Kang et al., based on the Basic KPIs, comprehenisve KPIs can be calculated.\\\\
 \textbf{Overall Equipment Effectiveness (OEE)}
 Overall Equipment Effectiveness (OEE) is formally defined as a comprehensive metric quantifying the total performance of a given piece of equipment. It integrates factors of availability, performance, and quality to provide a holistic assessment of operational efficiency. Bluntly said "[...]the degree to which the equipment is doing what it is supposed to do ." \cite{muchiriPerformanceMeasurementUsing2008}

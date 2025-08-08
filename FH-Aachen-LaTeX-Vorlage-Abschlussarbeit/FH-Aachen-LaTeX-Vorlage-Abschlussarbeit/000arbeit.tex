@@ -21,6 +21,7 @@
 \usepackage[left=3cm,right=3cm,top=2.5cm,bottom=2.5cm]{geometry}
 %\usepackage[plainheadsepline,headsepline]{scrpage2}
 \usepackage{color}
+\usepackage{xcolor}
 \usepackage{setspace}
 %\usepackage[numbers,square]{natbib} % only required for unsrtd bib style
 \usepackage{longtable}
@@ -77,18 +78,56 @@
 \newcolumntype{C}{>{\centering\arraybackslash$}p{3cm}<{$}}
 
 % Quellcode / Kommandozeileneingabe
-%\lstdefinestyle{BashInputStyle}{
-%language=bash,
-%  basicstyle=\small\ttfamily,
-  %numbers=left,
-  %numberstyle=\tiny,
-  %numbersep=3pt,
-%  frame=tb,
-%  columns=fullflexible,
-  %backgroundcolor=\color{yellow!20},
-%  linewidth=0.9\linewidth,
-%  xleftmargin=0.1\linewidth
-%}
+\lstdefinestyle{BashInputStyle}{
+language=bash,
+  basicstyle=\small\ttfamily,
+  numbers=left,
+  numberstyle=\tiny,
+  numbersep=3pt,
+  frame=tb,
+  columns=fullflexible,
+  backgroundcolor=\color{yellow!20},
+  linewidth=0.9\linewidth,
+  xleftmargin=0.1\linewidth
+}
+
+% Define Flux language for listings
+\lstdefinelanguage{Flux}{
+	morekeywords={
+		import, from, range, filter, map, reduce, group, aggregateWindow,
+		mean, sum, count, window, every, start, stop, pivot, join, drop,
+		keep, yield, to, option, package, pipe, as, pivot, union
+	},
+	sensitive=true,
+	morecomment=[l]{//},
+	morecomment=[s]{/*}{*/},
+	morestring=[b]",
+	morestring=[b]',
+	alsoletter={.},
+}
+
+% Flux listing style (use in preamble)
+\lstdefinestyle{FluxStyle}{
+	language=Flux,
+	basicstyle=\small\ttfamily,
+	keywordstyle=\color{blue}\bfseries,
+	commentstyle=\color{gray}\itshape,
+	stringstyle=\color{teal},
+	numbers=left,
+	numberstyle=\tiny,
+	numbersep=6pt,
+	frame=tb,
+	columns=fullflexible,
+	backgroundcolor=\color{yellow!20},
+	linewidth=\textwidth,      % use full text width
+	xleftmargin=0pt,          % no extra left margin
+	xrightmargin=0pt,         % no extra right margin
+	framexleftmargin=6pt,     % small padding between frame and text
+	framexrightmargin=6pt,
+	breaklines=true,
+	breakatwhitespace=true,
+	showstringspaces=false
+}
 
 % Inhalt
 \renewcaptionname{USenglish}{\contentsname}{Contents} % Umbenennung in Inhalt

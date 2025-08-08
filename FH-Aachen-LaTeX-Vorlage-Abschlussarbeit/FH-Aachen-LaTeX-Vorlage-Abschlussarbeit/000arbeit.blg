@@ -12,67 +12,74 @@ A level-1 auxiliary file: ./doc/111Schluss.aux
 The style file: apalike.bst
 A level-1 auxiliary file: ./doc/202abkuerzungsverzeichnis.aux
 Database file #1: ./bib/quellen.bib
-Warning--I didn't find a database entry for "ashtonThatInternetThings"
 Warning--I didn't find a database entry for "Segmentation"
 Warning--I didn't find a database entry for "ImageAttack"
 Warning--to sort, need author or key in WhatIoTInternet
+Warning--to sort, need author or key in REGULATIONEU2016
+Warning--to sort, need author or key in 87BetrVGEinzelnorm
 Warning--to sort, need author or key in UMHInstallationRequirements
 Warning--to sort, need author or key in RunningNodeREDLocally
 Warning--to sort, need author or key in NodeRedMinimun2020
 Warning--to sort, need author or key in WriteDataInfluxDB
 Warning--to sort, need author or key in Noderedcontribinfluxdb
 Warning--to sort, need author or key in QueryDataGet
+Warning--empty year in 87BetrVGEinzelnorm
 Warning--empty year in Noderedcontribinfluxdb
 Warning--empty year in QueryDataGet
+Warning--empty author in REGULATIONEU2016
+Warning--empty year in REGULATIONEU2016
+Warning--empty journal in REGULATIONEU2016
 Warning--empty year in RunningNodeREDLocally
 Warning--empty year in UMHInstallationRequirements
 Warning--empty year in WhatIoTInternet
 Warning--empty year in WriteDataInfluxDB
 Warning--empty journal in alauddinProcessImprovementSewing2018
+Warning--empty year in ashtonThatInternetThings
+Warning--empty journal in ashtonThatInternetThings
 Warning--empty year in ltdBuyRaspberryPi
 Warning--empty year in roseInternetThingsOverview
 Warning--empty journal in roseInternetThingsOverview
 Warning--empty year in thingsboardInstallingThingsBoardCE
 Warning--empty journal in youngIndustrialInternetReference2022
-You've used 26 entries,
+You've used 29 entries,
             1935 wiz_defined-function locations,
-            649 strings with 10267 characters,
-and the built_in function-call counts, 9259 in all, are:
-= -- 933
-> -- 312
-< -- 16
-+ -- 109
-- -- 103
-* -- 716
-:= -- 1545
-add.period$ -- 69
-call.type$ -- 26
-change.case$ -- 178
-chr.to.int$ -- 26
-cite$ -- 52
-duplicate$ -- 395
-empty$ -- 677
-format.name$ -- 128
-if$ -- 1855
+            658 strings with 10834 characters,
+and the built_in function-call counts, 9939 in all, are:
+= -- 999
+> -- 319
+< -- 17
++ -- 111
+- -- 105
+* -- 764
+:= -- 1655
+add.period$ -- 74
+call.type$ -- 29
+change.case$ -- 194
+chr.to.int$ -- 29
+cite$ -- 65
+duplicate$ -- 431
+empty$ -- 738
+format.name$ -- 131
+if$ -- 1988
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 15
-newline$ -- 123
-num.names$ -- 59
-pop$ -- 190
+missing$ -- 17
+newline$ -- 134
+num.names$ -- 62
+pop$ -- 215
 preamble$ -- 1
-purify$ -- 179
+purify$ -- 195
 quote$ -- 0
-skip$ -- 294
+skip$ -- 317
 stack$ -- 0
-substring$ -- 645
+substring$ -- 683
 swap$ -- 65
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 156
-warning$ -- 19
-while$ -- 67
+type$ -- 174
+warning$ -- 27
+while$ -- 69
 width$ -- 0
-write$ -- 299
-(There were 22 warnings)
+write$ -- 324
+(There were 29 warnings)

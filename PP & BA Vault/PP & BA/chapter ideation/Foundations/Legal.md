@@ -1,0 +1,7 @@
+- In Germany and the whole European Union personal rights regarding personal data have a high importance. Therefore it is important to give a brief overview over the regulations that need to be fulfilled by the proposed system. 
+- (71)In the General Data Protection Regulation of the European Union it is determined that it is not allowed to measure the performance of a worker automatically without any human intervention that produces legal effects. Though this is not the intend of the system, if the produced data would be traceable to a single worker, it could be abused to put pressure on the worker or to find reasons to fire him if his performance is to low. It also rules that a worker must be informed if any personal data is being collected. Personal data in the case of the system in question would be produced amounts traceable to individual workers.
+  Another thing to consider is that according to the german "Betriebsverfassungsgesetz § 87 Mitbestimmungsrechte" the works council has co determination rights regarding systems that measure the performance of workers.
+
+
+- dsgvo: worker must be informed if personal data is being collected
+- Betriebsverfassungsgesetz  § 87 Mitbestimmungsrechte: The works council has co-determination rights regarding systems that measure the performance of workers.

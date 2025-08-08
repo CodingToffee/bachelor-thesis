@@ -1,5 +1,9 @@
 \begin{thebibliography}{}
 
+\bibitem[87B, ]{87BetrVGEinzelnorm}
+{\S} 87 {{BetrVG}} - {{Einzelnorm}}.
+\newblock https://www.gesetze-im-internet.de/betrvg/\_\_87.html.
+
 \bibitem[Nod, ]{Noderedcontribinfluxdb}
 Node-red-contrib-influxdb.
 \newblock http://flows.nodered.org/node/node-red-contrib-influxdb.
@@ -9,6 +13,13 @@ Query data {\textbar} {{Get}} started with {{InfluxDB}} 3 {{Core}} {\textbar}
   {{InfluxDB}} 3 {{Core Documentation}}.
 \newblock
   https://docs.influxdata.com/influxdb3/core/get-started/query/\#Copyright.
+
+\bibitem[REG, ]{REGULATIONEU2016}
+{{REGULATION}} ({{EU}}) 2016/ 679 {{OF}} {{THE}} {{EUROPEAN}} {{PARLIAMENT}}
+  {{AND}} {{OF}} {{THE}} {{COUNCIL}} - of 27 {{April}} 2016 - on the protection
+  of natural persons with regard to the processing of personal data and on the
+  free movement of such data, and repealing {{Directive}} 95/ 46/ {{EC}}
+  ({{General}} {{Data}} {{Protection}} {{Regulation}}).
 
 \bibitem[Run, ]{RunningNodeREDLocally}
 Running {{Node-RED}} locally : {{Node-RED}}.
@@ -47,6 +58,10 @@ Asemani, M., Abdollahei, F., and Jabbari, F. (2019).
   definition and main characteristic description.
 \newblock In {\em 2019 5th {{International Conference}} on {{Web Research}}
   ({{ICWR}})}, pages 172--177.
+
+\bibitem[Ashton, ]{ashtonThatInternetThings}
+Ashton, K.
+\newblock That '{{Internet}} of {{Things}}' {{Thing}}.
 
 \bibitem[Gustin and Jasperneite, 2022]{gustinIoTDeviceManagement2022}
 Gustin, D. and Jasperneite, J. (2022).
