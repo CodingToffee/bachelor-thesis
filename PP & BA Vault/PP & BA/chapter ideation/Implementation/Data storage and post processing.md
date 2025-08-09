@@ -7,3 +7,30 @@ The aggregations are performed using the flux querie language. In the developtme
 **Flux Query Language**
 The flux query language can look quite different compared to SQL like query languages. Therefore the basics of Flux querying are being explained here. The first step always is to select the bucket of which the data should be used processed as seen in the first row. In every succeeding row the "|>" (pipe forward) is being used. This operater signals that the result of the preceeding operation is being used in the next operation. In the second row the timeframe of the desired data is being specified. This is also typical to do at the beginning to reduce the amount of data and therefore processing time. Additionally the succeeding filtering operations serve a similar purpose and enable the focus on only the relevant data. The measurement is a logical grouping of the data and contains multiple tags and fields. Fields consist of a name and a value and their characteristic is that they change over time. Further processing of the data usually happens after the filtering. There is no limit on how many operations can be chained together. The count operation in this example is one of many aggregate functions that reduce the amount of values to only one. The map function can be used to apply a function on every row. At the end of a query the final result is returned and in this case it is written to another bucket.
 
+
+**Postprocessing queries**
+In this subsection it will be briefly explained how the aggregations for all the supporting elements are being queried.
+
+Processed Quantity
+The sum over all thread trimming events where the value is true is being calculated.
+
+Actual Downtime
+The downtime events are determined by summing up idle or machine off times that have a longer duration than a set threshold. It must be kept in mind, that sometimes a worker goes to the toilet or takes a little break. So the threshold was set to ten minutes initally. It is then filtered for all events where all signals except for "main_menu_not_sewing" are fals. The latter can be true (idle) or false (machine off). All remaining entries that lie above the theshold are then summed up.
+
+Actual Production Time
+The duration of all events where the pattern tag is true is being summed up.
+
+Actual Cycle Time
+The duration between two cycle times is measured and summed up. To be sure that no break or downtime event is included in this, the same threshold as in the downtime measurement is applied to filter the values.
+
+Setup Time
+The duration from the machine being off to the first sewing event is being measured and summed op for all shifts of the day. The machine being off is characterized by all signals having the value false. The sewing event is characterized by only the "sewing_active" signal being true. 
+
+Idle Time
+The duration of all events where all signals except for the "main_menu_not_sewing" are false is measured and summed up. The duration of the break is subtracted. Of course there still could be downtime events contained in these events. But the downtime is simply subtracted in later queries.
+
+Failure Events
+All events where all signals are false except for "main_menu_not_sewing" which can be true or false are being filtered out. Then the threshold filter is applied again. The number of events are then counted.
+
+The remaining maintenance elements are left out because they build upon some of the supporting elements like actual down and production time. All of the supporting elements that are "Planned" where also not mentioned, because they cannot be queried but must be defined. 
+

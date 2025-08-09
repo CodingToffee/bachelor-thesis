@@ -55,8 +55,31 @@ from(bucket: "sewing-machine-1-simulated")
 \end{lstlisting}
 A comparison of the flux query language with SQL-like query languages reveals notable distinctions in their respective syntax and semantics. Accordingly, the fundamental principles of flux querying are elucidated herein. The initial step in the process is the selection of the bucket from which the data is to be utilized for processing, as illustrated in the initial row. The "|>" (pipe forward) symbol is employed in each subsequent row. This operator indicates that the result of the preceding operation is to be utilized in the subsequent operation. The subsequent row is designated for the specification of the timeframe for the desired data. This is a common practice at the outset to minimize data and, consequently, processing time. Furthermore, the subsequent filtration operations function in a similar manner, thereby allowing for the selection of only the pertinent data. The "\_measurement" constitutes a logical grouping of the data, encompassing numerous tags and fields. The utilization of tags facilitates the creation of additional data groups. For instance, in the event that a project encompasses multiple sewing machines, the measurement name could be altered to "State," and the tag could contain the names of the identifiers for each sewing machine.  Fields are defined by a name and a value, and their distinguishing characteristic is that they undergo changes over time. Subsequent processing of the data typically occurs subsequent to the filtration stage. The number of operations that can be chained together is unlimited. The count operation in this particular instance is one of numerous aggregate functions that reduce the quantity of values to a single value. The map function can be used to apply a function to every row in a data set. Upon completion of the query, the final result is returned. In this particular instance, the result is written to an alternate bucket.
 
+\subsection{Postprocessing Task Queries}
+This subsection briefly explains how aggregations of all supporting elements are queried.
 
+\textbf{Processed Quantity}\\
+The sum of all thread trimming events where the value is true is being calculated.
 
+\textbf{Actual Downtime}\\
+Downtime events are determined by summing idle or machine-off times that exceed a set threshold. Keep in mind that sometimes a worker goes to the bathroom or takes a short break. Initially, the threshold was set to ten minutes. Then, it is filtered for all events where all signals except "main\_menu\_not\_sewing" are false. The latter can be true (idle) or false (machine off). All remaining entries above the threshold are summed up.
+
+\textbf{Actual Production Time}\\
+The sum of all event durations where the pattern tag is true is being calculated.
+
+\textbf{Actual Cycle Time}\\
+The duration between two cycle times is measured and summed up. To ensure that no breaks or downtime events are included, the same threshold used for the downtime measurement is applied to filter the values.
+
+\textbf{Setup Time}\\
+The time from when the machine is turned off until the first sewing event is measured and summed up for each shift of the day. A machine is considered off when all signals have the value false. A sewing event is characterized by only the "sewing\_active" signal being true.
+
+\textbf{Idle Time}\\
+The duration of all events in which all signals except "main\_menu\_not\_sewing" are false is measured and summed up. Then, the duration of the break is subtracted. Of course, these events could still contain downtime events. However, downtime is simply subtracted in later queries.
+
+\textbf{Failure Events}\\
+All events in which all signals are false, except for "main\_menu\_not\_sewing," which can be either true or false, are filtered out. Then, the threshold filter is applied again. Finally, the number of events is counted.\\
+
+The remaining maintenance elements were omitted because they depend on some of the supporting elements, such as actual downtime and production time. None of the supporting elements that are "planned" were mentioned because they cannot be queried, only defined.
 
 
 

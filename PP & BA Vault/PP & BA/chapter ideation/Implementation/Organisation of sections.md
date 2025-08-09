@@ -1,0 +1,6 @@
+- Data acqusition setup
+- Data retrieval and preprocessing
+- Data storage and postprocessing
+- Data simulation 
+- Devops
+-  Dashboarding and KPI generation
