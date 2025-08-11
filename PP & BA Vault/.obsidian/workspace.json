@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PP & BA/chapter ideation/Implementation/Organisation of sections.md",
+                "file": "PP & BA/chapter ideation/Implementation/Data simulation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Organisation of sections"
+              "title": "Data simulation"
             }
           }
         ]
@@ -172,8 +172,11 @@
   "active": "c74d00d3eb1e9fc3",
   "lastOpenFiles": [
     "PP & BA/chapter ideation/Implementation/Data storage and post processing.md",
-    "PP & BA/chapter ideation/Implementation/Dashboarding and KPI generation.md",
+    "PP & BA/chapter ideation/Implementation/Infrastructure Automation and Service Health.md",
+    "PP & BA/chapter ideation/Implementation/Results.md",
+    "PP & BA/chapter ideation/Implementation/Data simulation.md",
     "PP & BA/chapter ideation/Implementation/Organisation of sections.md",
+    "PP & BA/chapter ideation/Implementation/Dashboarding and KPI generation.md",
     "PP & BA/chapter ideation/Implementation/Data retrieval and preprocessing.md",
     "PP & BA/chapter ideation/Implementation/Data Acquisition Setup.md",
     "PP & BA/chapter ideation/Foundations/Legal.md",
@@ -208,9 +211,6 @@
     "PP & BA/source-notes/Related Work/overview/tambarePerformanceMeasurementSystem2022.md",
     "PP & BA/source-notes/Related Work/similar work/wedanageFogAssistedIndustrial2022.md",
     "PP & BA/source-notes/Related Work/similar work/quocApplyingIoTOperations2025.md",
-    "PP & BA/source-notes/Related Work/similar work/jungRemoteSensingSewing2020.md",
-    "PP & BA/source-notes/Related Work/similar work/strazinskasDevelopmentSolutionMonitoring2025.md",
-    "PP & BA/source-notes/Related Work/less similar work/leeStudySensingMonitoring2017.md",
     "PP & BA/source-notes/Related Work/modern industrial env",
     "PP & BA/source-notes/Related Work/overview",
     "PP & BA/source-notes/KPIs/herrera-barreda2024/image-5-x128-y474.png",
