@@ -45,14 +45,16 @@
 \contentsline {section}{\numberline {5.3}Data Storage and Post-Processing}{32}{}%
 \contentsline {subsection}{\numberline {5.3.1}Flux Query Language}{33}{}%
 \contentsline {subsection}{\numberline {5.3.2}Postprocessing Task Queries}{34}{}%
-\contentsline {chapter}{\numberline {6}\textbf {Schluss}}{36}{}%
+\contentsline {section}{\numberline {5.4}Synthetic Data Generation}{34}{}%
+\contentsline {section}{\numberline {5.5}Infrastructure Automation and Service Health}{35}{}%
+\contentsline {chapter}{\numberline {6}\textbf {Schluss}}{37}{}%
 \vspace {0.8cm}
-\contentsline {chapter}{Quellenverzeichnis}{38}{}%
-\contentsline {chapter}{Abkürzungsverzeichnis}{39}{}%
-\contentsline {chapter}{Abbildungsverzeichnis}{40}{}%
-\contentsline {chapter}{Tabellenverzeichnis}{41}{}%
+\contentsline {chapter}{Quellenverzeichnis}{39}{}%
+\contentsline {chapter}{Abkürzungsverzeichnis}{40}{}%
+\contentsline {chapter}{Abbildungsverzeichnis}{41}{}%
+\contentsline {chapter}{Tabellenverzeichnis}{42}{}%
 \vspace {0.8cm}
-\contentsline {chapter}{Anhang}{41}{}%
-\contentsline {chapter}{\numberline {A}Quellcode}{42}{}%
-\contentsline {chapter}{\numberline {B}Rohdatenvisualisierungen}{43}{}%
+\contentsline {chapter}{Anhang}{42}{}%
+\contentsline {chapter}{\numberline {A}Quellcode}{43}{}%
+\contentsline {chapter}{\numberline {B}Rohdatenvisualisierungen}{44}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
