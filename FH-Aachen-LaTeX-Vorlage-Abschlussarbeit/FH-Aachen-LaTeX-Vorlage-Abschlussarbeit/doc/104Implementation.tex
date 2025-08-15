@@ -16,7 +16,7 @@ The system was configured so that when a signal becomes active, it draws current
 The resolution of the aforementioned issue necessitated the conversion of the NPN signals of the sewing machine into PNP signals, which are compatible with the PLC. For the execution of this task, an optocoupler was utilized. The implementation was executed in accordance with the subsequent description. Subsequently, the signal output pins of the sewing machine were connected to the signal input connectors of the optocoupler. Furthermore, a connection to the 24-V power supply of the sewing machine was established for each signal input. The signal connectors on the output side of the optocoupler are connected to the signal input connectors of the PLC. Concurrently, the 24-V power supply of the PLC is connected to the VCC input connector of the optocoupler. Additionally, the 0V connector of the programmable logic controller PLC is linked to the GND connector of the optocoupler. The wiring of the optocoupler can be observed in the following Figure.
 \begin{figure}[H]
 	\centering
-	\includegraphics[height=6cm]{pic/optocoupler-wiring.jpg}
+	\includegraphics[height=6cm]{pic/sewing-machine-opto-plc.png}
 	\caption{Initial Connection of Sewing Machine to PLC}
 	\label{fig:Model-Component-Pattern}
 \end{figure}
